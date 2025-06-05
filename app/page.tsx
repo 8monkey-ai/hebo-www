@@ -15,7 +15,7 @@ export default function Home() {
                 Hebo
               </div>
             </a>
-            <a href="https://www.linkedin.com/company/hebo-ai/jobs/" target="_blank">
+            <a href="https://www.linkedin.com/company/heboai/jobs/" target="_blank">
               <Badge className="text-xs h-5 rounded-lg bg-indigo-500">Hiring</Badge>
             </a>
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="footer" className="flex flex-wrap justify-center text-sm p-4 gap-y-2">
+      <footer className="flex flex-wrap justify-center text-sm p-4 gap-y-2">
         <span className="flex whitespace-nowrap">
           <Image src="/hebo.png" alt="Hebo AI" width={18} height={18} />&nbsp;
           <span className="font-semibold">hebo.ai</span>&nbsp;is designed, built and backed by&nbsp;
@@ -78,7 +78,7 @@ export default function Home() {
           <Image src="/infinite-monkey-ai.png" alt="Hebo AI" width={18} height={18} />&nbsp;
           <span className="font-semibold">Infinite Monkey AI Sdn Bhd</span>&nbsp;(202501003121)
         </span>
-      </div>
+      </footer>
 
     </div>
   );
