@@ -49,7 +49,7 @@ export default function RootLayout({
           `}}
         />
       </head>
-      <body className={`${geistSans.className} antialiased`}>
+      <body className={`${geistSans.className} antialiased bg-linear-153 from-[#F5F7FA] to-[#F8F9D2] from-35% overflow-x-hidden`}>
         {children}
       </body>
     </html>
