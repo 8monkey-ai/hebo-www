@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row w-full justify-between md:gap-10">
           <div id="hero-content" className="flex flex-col md:max-w-xl gap-4 z-1">
-            <div id="title" className="text-3xl/10 md:text-5xl/15 font-semibold">
+            <div id="title" className="text-3xl/10 md:text-5xl/15 font-semibold overflow-hidden text-ellipsis">
               Build <span className="underline">Conversational Agents</span> with TypeScript
             </div>
             <div id="description" className="text-base/6">
@@ -84,8 +84,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="compatibility" className="flex flex-col md:flex-row md:max-w-4xl mx-auto md:items-end gap-8 p-5">
-          <div className="flex flex-col max-w-sm md:-mx-5 gap-3 px-2">
+        <div id="compatibility" className="flex flex-col md:flex-row max-w-4xl mx-auto md:items-end gap-8 md:p-5">
+          <div className="flex flex-col max-w-sm md:-mx-5 items-start gap-3 px-2">
             <div className="text-2xl/8 font-semibold ">Hebo seamlessly integrates with your existing choices</div>
             <div className="flex items-center gap-1"><Brain size={16} /> Choose any state-of-the-art <span className="font-semibold">LLM</span></div>
             <div className="flex items-center gap-1"><Code size={16} /> Wrap into your favorite <span className="font-semibold">Framework</span></div>
