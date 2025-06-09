@@ -13,8 +13,10 @@ export default function Home() {
             <div id="title" className="text-3xl/10 sm:text-5xl/15 font-semibold overflow-hidden text-ellipsis">
               Build <span className="underline">Conversational Agents</span> with TypeScript
             </div>
-            <div id="description" className="text-base/6">
-              Hebo is a toolchain that streamlines the development & operations of conversational agents. Key primitives for <span className="font-semibold">RAG, Tools & Memory</span> are provided out-of-the-box. They enable fine-grained control of <span className="font-semibold">conversation content & quality</span>. With built-in <span className="font-semibold">evaluations & observability</span> tools, tech and business teams iterate quickly on the agent's capabilities.
+            <div id="description" className="flex flex-col gap-2 text-base/6">
+              <p>Hebo is the fastest way to build and scale <span className="underline decoration-dotted">high-quality</span> conversational agents. </p>
+              <p>A stack that includes primitives for <span className="font-semibold">RAG, Tools & Memory</span>, enabling fine-grained control over conversation content & quality. </p>
+              <p>A toolchain for <span className="font-semibold">evaluations & observability</span> that allows tech and business teams iterate quickly on the agent's capabilities.</p>
             </div>
             <div id="ctas" className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
               <Button asChild className="h-12 px-3 text-base font-semibold text-stone-900 rounded-xl bg-stone-100 hover:bg-stone-200 border-solid border-2 border-indigo-800">
