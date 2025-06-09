@@ -33,11 +33,15 @@ export default function Home() {
                 Community
             </div>
             </a>
-            <Button asChild className=' h-8 py-0 text-sm font-semibold text-stone-900 rounded-2xl bg-stone-100 hover:bg-stone-200 border-solid border-2 border-indigo-800'>
+            <Button asChild className='h-8 py-0 text-sm font-semibold text-stone-900 rounded-2xl bg-stone-100 hover:bg-stone-200 border-solid border-2 border-indigo-800'>
+              <div>
               <a href="https://cloud.hebo.ai" target="_blank">
                 Cloud
               </a>
+              <Badge className="h-5 absolute -mt-8 ml-12 rotate-6 text-xs rounded-lg bg-orange-500">Beta</Badge>
+              </div>
             </Button>
+            
           </div>
         </div>
       </div>
