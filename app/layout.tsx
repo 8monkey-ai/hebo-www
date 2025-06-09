@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hebo AI - Build conversational agents with TypeScript",
+  title: "Hebo AI - Build Conversational Agents with TypeScript",
   description: "Hebo is a toolchain that streamlines the development & operations of conversational agents",
 };
 
