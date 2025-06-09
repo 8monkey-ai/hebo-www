@@ -5,14 +5,14 @@ import { Brain, Code, MessageCircleMore, Cloudy, UsersRound } from "lucide-react
 
 export default function Home() {
   return (
-    <div className="max-w-6xl m-full mx-auto flex flex-col gap-5 p-5">
+    <div className="max-w-6xl m-full mx-auto flex flex-col gap-8 p-6">
 
       <div id="nav" className="flex justify-center">
         <div className="w-full flex justify-between items-center">
           <div className="flex items-center gap-1">
             <a href="/" target="_blank">
               <div id="logo" className="flex gap-1 items-center text-xl/5 md:text-2xl/10 font-semibold">
-                <Image src="/hebo.png" alt="Hebo AI" width={20} height={20} className="w-5 md:w-8 h:6 md:h-8"/>
+                <Image src="/hebo.png" alt="Hebo AI" width={20} height={20} className="w-6 md:w-8 h:6 md:h-8"/>
                 Hebo
               </div>
             </a>
