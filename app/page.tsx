@@ -47,7 +47,7 @@ export default function Home() {
 
       <div id="main" className="flex flex-col w-full mx-auto gap-15 sm:p-5">
 
-        <div d="hero" className="w-full sm:gap-10 pb-50 sm:pb-20 bg-[url('/hero.png')] bg-no-repeat bg-size-[auto_300px] sm:bg-size-[auto_400px] bg-bottom-right sm:bg-top-right">
+        <div id="hero" className="w-full sm:gap-10 pb-50 sm:pb-20 bg-[url('/hero.png')] bg-no-repeat bg-size-[auto_300px] sm:bg-size-[auto_400px] bg-bottom-right sm:bg-top-right">
           <div id="hero-content" className="flex flex-col sm:max-w-xl gap-4">
             <div id="title" className="text-3xl/10 sm:text-5xl/15 font-semibold overflow-hidden text-ellipsis">
               Build <span className="underline">Conversational Agents</span> with TypeScript
