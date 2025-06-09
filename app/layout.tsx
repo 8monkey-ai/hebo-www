@@ -95,7 +95,20 @@ export default function RootLayout({
             </div>
           </div>
 
-          {children}
+          {children}          
+
+          <div id='infinite-monkey-ai' className="flex flex-col sm:flex-row sm:max-w-5xl sm:mx-auto gap-4 rounded-xl sm:bg-gradient-to-bl sm:from-yello-100 sm:to-zinc-50">
+            <Image src="/banner-infinite-monkey-ai.png" alt="Infinite Monkey AI" width={400} height={265} className="hidden lg:block max-w-[400px] max-h-[265px]"/>
+            <div className="flex flex-col gap-3 sm:p-10">
+              <div className="text-4xl font-semibold">Can we help you?</div>
+              <div className="text-medium">The team at <a href="https://8monkey.ai/" target="_blank" className="underline decoration-dotted">Infinite Monkey AI</a> has decades of experience in building AI agents. We’d love to talk to you and help you unlock the full power of AI to scale and optimize your business.</div>
+              <Button asChild className="h-12 text-medium text-white bg-indigo-900 hover:bg-indigo-800">
+                <a href="https://tsgip706sfr0.sg.larksuite.com/scheduler/e9f3bb6edd303246" target="_blank">
+                  Talk to a Human
+                </a>
+                </Button>
+            </div>
+          </div>
 
           <footer className="flex flex-wrap justify-center gap-y-2 p-4 text-sm">
             <span className="flex whitespace-nowrap">
@@ -109,7 +122,7 @@ export default function RootLayout({
           </footer>
 
         </div>
-      
+
       </body>
     </html>
   );

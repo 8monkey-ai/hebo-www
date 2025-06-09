@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       
         <div id='hebo-evals' className="flex flex-row sm:max-w-5xl w-full mx-auto gap-2 p-4 border-solid border-2 rounded-xl border-indigo-800 bg-stone-100">
-          <Image src="/hebo-evals.png" alt="Hero Image" width={200} height={200} className="hidden md:block w-[175px] h-[175px] -ml-13 -mt-11"/>
+          <Image src="/hebo-evals.png" alt="Hebo Evals" width={200} height={200} className="hidden md:block w-[175px] h-[175px] -ml-13 -mt-11"/>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col md:flex-row items-center gap-2 text-2xl font-semibold">
               <Badge className="text-sm rounded-lg bg-green-600 text-white">COMING SOON</Badge>
@@ -44,6 +44,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
+
         <div id="compatibility" className="flex flex-col sm:flex-row max-w-4xl mx-auto sm:items-end gap-8 sm:p-5">
           <div className="flex flex-col max-w-sm sm:-mx-5 items-start gap-3 px-2">
             <div className="text-2xl/8 font-semibold ">Hebo seamlessly integrates with your existing choices</div>
@@ -81,18 +82,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div id='infinite-monkey-ai' className="flex flex-col sm:flex-row sm:max-w-6xl sm:mx-auto gap-4 rounded-xl sm:bg-gradient-to-bl sm:from-yello-100 sm:to-zinc-50">
-          <Image src="/banner-infinite-monkey-ai.png" alt="Infinite Monkey AI" width={400} height={265} className="hidden lg:block max-w-[400px] max-h-[265px]"/>
-          <div className="flex flex-col gap-3 sm:p-10">
-            <div className="text-4xl font-semibold">Can we help you?</div>
-            <div className="text-medium">The team at <a href="https://8monkey.ai/" target="_blank" className="underline decoration-dotted">Infinite Monkey AI</a> has decades of experience in building AI agents. We’d love to talk to you and help you unlock the full power of AI to scale and optimize your business.</div>
-            <Button asChild className=" h-12 text-medium text-white bg-indigo-900 hover:bg-indigo-800">
-              <a href="https://tsgip706sfr0.sg.larksuite.com/scheduler/e9f3bb6edd303246" target="_blank">
-                Talk to a Human
-              </a>
-              </Button>
-          </div>
-        </div>
       </div>
 
   );
