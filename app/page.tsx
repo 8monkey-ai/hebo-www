@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="justify-end z-0">
+          <div className="flex justify-end z-0">
               <Image src="/hero.png" alt="Hero Image" width={400} height={400} priority={true} className="relative md:static max-h-[300px] md:max-h-[400px] max-w-[300px] md:max-w-[400px] -mt-25 md:mt-0"/>
           </div>
         </div>
