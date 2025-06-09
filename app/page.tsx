@@ -5,46 +5,7 @@ import { Brain, Code, MessageCircleMore, Cloudy, UsersRound } from "lucide-react
 
 export default function Home() {
   return (
-    <div className="max-w-6xl m-full mx-auto flex flex-col gap-8 p-6">
-
-      <div id="nav" className="flex justify-center">
-        <div className="w-full flex justify-between items-center">
-          <div className="flex items-top gap-1">
-            <a href="/" target="_blank">
-              <div id="logo" className="flex gap-1 items-center text-xl/5 sm:text-2xl/10 font-semibold">
-                <Image src="/hebo.png" alt="Hebo AI" width={20} height={20} className="w-6 sm:w-8 h:6 sm:h-8"/>
-                Hebo
-              </div>
-            </a>
-            <a href="https://www.linkedin.com/company/heboai/jobs/" target="_blank">
-              <Badge className="h-5 text-xs rounded-lg bg-indigo-500">Hiring</Badge>
-            </a>
-          </div>
-          <div className="flex items-center gap-8">
-            <a href="https://github.com/heboai/hebo/" target="_blank" className="hidden sm:block">
-              <div className="flex items-center gap-2 text-sm font-medium hover:underline">
-                <Image src="/github.png" alt="Hebo AI" width={20} height={20} />
-                Source
-              </div>
-            </a>
-            <a href="https://discord.gg/cCJtXZRU5p" target="_blank" className="hidden sm:block">
-              <div className="flex items-center gap-2 text-sm font-medium hover:underline">
-                <Image src="/discord.png" alt="Hebo AI" width={20} height={20} />
-                Community
-            </div>
-            </a>
-            <Button asChild className='h-8 py-0 text-sm font-semibold text-stone-900 rounded-2xl bg-stone-100 hover:bg-stone-200 border-solid border-2 border-indigo-800'>
-              <div>
-              <a href="https://cloud.hebo.ai" target="_blank">
-                Cloud
-              </a>
-              <Badge className="h-5 absolute -mt-8 ml-12 rotate-6 text-xs rounded-lg bg-orange-500">Beta</Badge>
-              </div>
-            </Button>
-          </div>
-        </div>
-      </div>
-
+  
       <div id="main" className="flex flex-col w-full mx-auto gap-15 sm:p-5">
 
         <div id="hero" className="w-full sm:gap-10 pb-50 sm:pb-20 bg-[url('/hero.png')] bg-no-repeat bg-size-[auto_300px] sm:bg-size-[auto_400px] bg-bottom-right sm:bg-top-right">
@@ -133,18 +94,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-        
-      <footer className="flex flex-wrap justify-center gap-y-2 p-4 text-sm">
-        <span className="flex whitespace-nowrap">
-          <Image src="/hebo.png" alt="Hebo AI" width={18} height={18} />&nbsp;
-          <span className="font-semibold">hebo.ai</span>&nbsp;is designed, built and backed by&nbsp;
-        </span>
-        <span className="flex whitespace-nowrap">
-          <Image src="/infinite-monkey-ai.png" alt="Hebo AI" width={18} height={18} />&nbsp;
-          <span className="font-semibold"><a href="https://8monkey.ai/" target="_blank" className="hover:underline">Infinite Monkey AI Sdn Bhd</a></span>&nbsp;(202501003121)
-        </span>
-      </footer>
 
-    </div>
   );
 }
