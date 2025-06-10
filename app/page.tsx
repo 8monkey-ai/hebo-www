@@ -66,7 +66,7 @@ export default function Home() {
               </a>
             </Button>
             <a
-              href="http://github.com/heboai/hebo/"
+              href="https://github.com/heboai/hebo/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base font-medium hover:underline"

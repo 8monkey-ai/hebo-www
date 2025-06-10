@@ -85,7 +85,7 @@ export default function Home() {
             </Button>
           </div>
           <pre className="text-medium flex items-center gap-2">
-            $ npx install hebo-evals@latest
+            $ npm install hebo-evals@latest
             <Copy size={16} className="text-gray-500 hover:text-gray-900" />
           </pre>
         </div>
