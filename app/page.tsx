@@ -51,7 +51,11 @@ export default function Home() {
               asChild
               className="h-12 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 px-3 text-base font-semibold text-stone-900 hover:bg-stone-200"
             >
-              <a href="https://discord.gg/cCJtXZRU5p" target="_blank">
+              <a
+                href="https://discord.gg/cCJtXZRU5p"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/discord-purple.png"
                   alt="Hebo AI"
@@ -64,6 +68,7 @@ export default function Home() {
             <a
               href="http://github.com/heboai/hebo/"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-base font-medium hover:underline"
             >
               View on Github &gt;
@@ -72,42 +77,44 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        id="hebo-evals"
-        className="mx-auto flex w-full flex-row gap-2 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 p-4 sm:max-w-5xl"
-      >
-        <Image
-          src="/hebo-evals.png"
-          alt="Hebo Evals"
-          width={200}
-          height={200}
-          className="-mt-11 -ml-13 hidden h-[175px] w-[175px] md:block"
-        />
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-col items-center gap-2 text-2xl font-semibold md:flex-row">
-            <Badge className="rounded-lg bg-green-600 text-sm text-white">
-              COMING SOON
-            </Badge>
-            <div className="">Introducing Hebo Evals</div>
+      <a href="/evals">
+        <div
+          id="hebo-evals"
+          className="mx-auto flex w-full flex-row gap-2 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 p-4 hover:bg-stone-50 sm:max-w-5xl"
+        >
+          <Image
+            src="/hebo-evals.png"
+            alt="Hebo Evals"
+            width={200}
+            height={200}
+            className="-mt-11 -ml-13 hidden h-[175px] w-[175px] md:block"
+          />
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col items-center gap-2 text-2xl font-semibold md:flex-row">
+              <Badge className="rounded-lg bg-green-600 text-sm text-white">
+                NEW
+              </Badge>
+              <div className="">Introducing Hebo Evals</div>
+            </div>
+            <ul className="mx-5 list-disc space-y-1">
+              <li>
+                Write sample conversations using{" "}
+                <span className="font-semibold">simple Markdown</span>
+              </li>
+              <li>
+                Test against your system{" "}
+                <span className="font-semibold">prompts</span>, (fine-tuned){" "}
+                <span className="font-semibold">LLMs</span> or custom{" "}
+                <span className="font-semibold">Agents</span>
+              </li>
+              <li>
+                Seamlessly integrate into your existing{" "}
+                <span className="font-semibold">CI / CD pipelines</span>
+              </li>
+            </ul>
           </div>
-          <ul className="mx-5 list-disc">
-            <li>
-              Write sample conversations using{" "}
-              <span className="font-semibold">simple Markdown</span>
-            </li>
-            <li>
-              Test against your system{" "}
-              <span className="font-semibold">prompts</span>, (fine-tuned){" "}
-              <span className="font-semibold">LLMs</span> or custom{" "}
-              <span className="font-semibold">Agents</span>
-            </li>
-            <li>
-              Seamlessly integrate into your existing{" "}
-              <span className="font-semibold">CI / CD pipelines</span>
-            </li>
-          </ul>
         </div>
-      </div>
+      </a>
 
       <div
         id="compatibility"
