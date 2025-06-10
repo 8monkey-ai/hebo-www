@@ -53,7 +53,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className={`${geistSans.className} antialiased bg-linear-153 from-[#F5F7FA] to-[#F8F9D2] from-35% overflow-x-hidden`}>
+      <body className={`${geistSans.className} ${geistMono.className} antialiased bg-linear-153 from-[#F5F7FA] to-[#F8F9D2] from-35% overflow-x-hidden`}>
 
         <div className="max-w-6xl m-full mx-auto flex flex-col gap-8 p-6">
 

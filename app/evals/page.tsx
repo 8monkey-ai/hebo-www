@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -22,7 +21,7 @@ export default function Home() {
 
             <p>Assistant: Of course! Could you share your order ID, please?</p>
 
-            <p>User: Sure, it's #8927341.</p>
+            <p>User: Sure, it&apos;s #8927341.</p>
 
             <p>Tool: Order Mgmt(#8927341)</p>
 
