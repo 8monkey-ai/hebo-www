@@ -57,7 +57,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${geistSans.className} ${geistMono.className} overflow-x-hidden bg-linear-153 from-[#F5F7FA] from-35% to-[#F8F9D2] antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden bg-linear-153 from-[#F5F7FA] from-35% to-[#F8F9D2]`}
       >
         <div className="m-full mx-auto flex max-w-6xl flex-col gap-8 p-6">
           <div id="nav" className="flex justify-center">
