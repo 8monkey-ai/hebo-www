@@ -19,15 +19,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hebo AI - Build Conversational Agents with TypeScript",
-  description: "Hebo is a toolchain that streamlines the development & operations of conversational agents",
+  description:
+    "Hebo is a toolchain that streamlines the development & operations of conversational agents",
 };
 
 export const viewport: Viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-}
+};
 
 export default function RootLayout({
   children,
@@ -39,90 +40,171 @@ export default function RootLayout({
       <head>
         <Script
           strategy="afterInteractive"
-          src={'https://www.googletagmanager.com/gtag/js?id=G-ZJJ115Z0CH'}
+          src={"https://www.googletagmanager.com/gtag/js?id=G-ZJJ115Z0CH"}
         />
-        <Script 
+        <Script
           strategy="afterInteractive"
           id="google-analytics"
-          dangerouslySetInnerHTML={{__html: `
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-ZJJ115Z0CH');
-          `}}
+          `,
+          }}
         />
       </head>
 
-      <body className={`${geistSans.className} ${geistMono.className} antialiased bg-linear-153 from-[#F5F7FA] to-[#F8F9D2] from-35% overflow-x-hidden`}>
-
-        <div className="max-w-6xl m-full mx-auto flex flex-col gap-8 p-6">
-
+      <body
+        className={`${geistSans.className} ${geistMono.className} overflow-x-hidden bg-linear-153 from-[#F5F7FA] from-35% to-[#F8F9D2] antialiased`}
+      >
+        <div className="m-full mx-auto flex max-w-6xl flex-col gap-8 p-6">
           <div id="nav" className="flex justify-center">
-            <div className="w-full flex justify-between items-center">
-              <div className="flex items-top gap-1">
+            <div className="flex w-full items-center justify-between">
+              <div className="items-top flex gap-1">
                 <a href="/" target="_blank">
-                  <div id="logo" className="flex gap-1 items-center text-xl/5 sm:text-2xl/10 font-semibold">
-                    <Image src="/hebo.png" alt="Hebo AI" width={20} height={20} className="w-6 sm:w-8 h:6 sm:h-8"/>
+                  <div
+                    id="logo"
+                    className="flex items-center gap-1 text-xl/5 font-semibold sm:text-2xl/10"
+                  >
+                    <Image
+                      src="/hebo.png"
+                      alt="Hebo AI"
+                      width={20}
+                      height={20}
+                      className="h:6 w-6 sm:h-8 sm:w-8"
+                    />
                     Hebo
                   </div>
                 </a>
-                <a href="https://www.linkedin.com/company/heboai/jobs/" target="_blank">
-                  <Badge className="h-5 text-xs rounded-lg bg-indigo-500">Hiring</Badge>
+                <a
+                  href="https://www.linkedin.com/company/heboai/jobs/"
+                  target="_blank"
+                >
+                  <Badge className="h-5 rounded-lg bg-indigo-500 text-xs">
+                    Hiring
+                  </Badge>
                 </a>
               </div>
               <div className="flex items-center gap-8">
-                <a href="https://github.com/heboai/hebo/" target="_blank" className="hidden sm:block">
+                <a
+                  href="https://github.com/heboai/hebo/"
+                  target="_blank"
+                  className="hidden sm:block"
+                >
                   <div className="flex items-center gap-2 text-sm font-medium hover:underline">
-                    <Image src="/github.png" alt="Hebo AI" width={20} height={20} />
+                    <Image
+                      src="/github.png"
+                      alt="Hebo AI"
+                      width={20}
+                      height={20}
+                    />
                     Source
                   </div>
                 </a>
-                <a href="https://discord.gg/cCJtXZRU5p" target="_blank" className="hidden sm:block">
+                <a
+                  href="https://discord.gg/cCJtXZRU5p"
+                  target="_blank"
+                  className="hidden sm:block"
+                >
                   <div className="flex items-center gap-2 text-sm font-medium hover:underline">
-                    <Image src="/discord.png" alt="Hebo AI" width={20} height={20} />
+                    <Image
+                      src="/discord.png"
+                      alt="Hebo AI"
+                      width={20}
+                      height={20}
+                    />
                     Community
-                </div>
+                  </div>
                 </a>
-                <Button asChild className='h-8 py-0 text-sm font-semibold text-stone-900 rounded-2xl bg-stone-100 hover:bg-stone-200 border-solid border-2 border-indigo-800'>
+                <Button
+                  asChild
+                  className="h-8 rounded-2xl border-2 border-solid border-indigo-800 bg-stone-100 py-0 text-sm font-semibold text-stone-900 hover:bg-stone-200"
+                >
                   <div>
-                  <a href="https://cloud.hebo.ai" target="_blank">
-                    Cloud
-                  </a>
-                  <Badge className="h-5 absolute -mt-8 ml-12 rotate-6 text-xs rounded-lg bg-orange-500">Beta</Badge>
+                    <a href="https://cloud.hebo.ai" target="_blank">
+                      Cloud
+                    </a>
+                    <Badge className="absolute -mt-8 ml-12 h-5 rotate-6 rounded-lg bg-orange-500 text-xs">
+                      Beta
+                    </Badge>
                   </div>
                 </Button>
               </div>
             </div>
           </div>
 
-          {children}          
+          {children}
 
-          <div id='infinite-monkey-ai' className="flex flex-col sm:flex-row sm:max-w-5xl sm:mx-auto gap-4 rounded-xl sm:bg-gradient-to-bl sm:from-yello-100 sm:to-zinc-50">
-            <Image src="/banner-infinite-monkey-ai.png" alt="Infinite Monkey AI" width={400} height={265} className="hidden lg:block max-w-[400px] max-h-[265px]"/>
+          <div
+            id="infinite-monkey-ai"
+            className="sm:from-yello-100 flex flex-col gap-4 rounded-xl sm:mx-auto sm:max-w-5xl sm:flex-row sm:bg-gradient-to-bl sm:to-zinc-50"
+          >
+            <Image
+              src="/banner-infinite-monkey-ai.png"
+              alt="Infinite Monkey AI"
+              width={400}
+              height={265}
+              className="hidden max-h-[265px] max-w-[400px] lg:block"
+            />
             <div className="flex flex-col gap-3 sm:p-10">
               <div className="text-4xl font-semibold">Can we help you?</div>
-              <div className="text-medium">The team at <a href="https://8monkey.ai/" target="_blank" className="underline decoration-dotted">Infinite Monkey AI</a> has decades of experience in building AI agents. We’d love to talk to you and help you unlock the full power of AI to scale and optimize your business.</div>
-              <Button asChild className="h-12 text-medium text-white bg-indigo-900 hover:bg-indigo-800">
-                <a href="https://tsgip706sfr0.sg.larksuite.com/scheduler/e9f3bb6edd303246" target="_blank">
+              <div className="text-medium">
+                The team at{" "}
+                <a
+                  href="https://8monkey.ai/"
+                  target="_blank"
+                  className="underline decoration-dotted"
+                >
+                  Infinite Monkey AI
+                </a>{" "}
+                has decades of experience in building AI agents. We’d love to
+                talk to you and help you unlock the full power of AI to scale
+                and optimize your business.
+              </div>
+              <Button
+                asChild
+                className="text-medium h-12 bg-indigo-900 text-white hover:bg-indigo-800"
+              >
+                <a
+                  href="https://tsgip706sfr0.sg.larksuite.com/scheduler/e9f3bb6edd303246"
+                  target="_blank"
+                >
                   Talk to a Human
                 </a>
-                </Button>
+              </Button>
             </div>
           </div>
 
           <footer className="flex flex-wrap justify-center gap-y-2 p-4 text-sm">
             <span className="flex whitespace-nowrap">
-              <Image src="/hebo.png" alt="Hebo AI" width={18} height={18} />&nbsp;
-              <span className="font-semibold">hebo.ai</span>&nbsp;is designed, built and backed by&nbsp;
+              <Image src="/hebo.png" alt="Hebo AI" width={18} height={18} />
+              &nbsp;
+              <span className="font-semibold">hebo.ai</span>&nbsp;is designed,
+              built and backed by&nbsp;
             </span>
             <span className="flex whitespace-nowrap">
-              <Image src="/infinite-monkey-ai.png" alt="Hebo AI" width={18} height={18} />&nbsp;
-              <span className="font-semibold"><a href="https://8monkey.ai/" target="_blank" className="hover:underline">Infinite Monkey AI Sdn Bhd</a></span>&nbsp;(202501003121)
+              <Image
+                src="/infinite-monkey-ai.png"
+                alt="Hebo AI"
+                width={18}
+                height={18}
+              />
+              &nbsp;
+              <span className="font-semibold">
+                <a
+                  href="https://8monkey.ai/"
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  Infinite Monkey AI Sdn Bhd
+                </a>
+              </span>
+              &nbsp;(202501003121)
             </span>
           </footer>
-
         </div>
-
       </body>
     </html>
   );
