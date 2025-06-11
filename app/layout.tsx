@@ -63,7 +63,7 @@ export default function RootLayout({
           <div id="nav" className="flex justify-center">
             <div className="flex w-full items-center justify-between">
               <div className="items-top flex gap-1">
-                <a href="/" target="_blank">
+                <a href="/">
                   <div
                     id="logo"
                     className="flex items-center gap-1 text-xl/5 font-semibold sm:text-2xl/10"

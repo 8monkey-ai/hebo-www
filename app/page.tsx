@@ -124,7 +124,7 @@ export default function Home() {
                 <span className="font-semibold">CI / CD pipelines</span>
               </li>
             </ul>
-            <div className="block flex flex-col items-center underline decoration-dotted sm:hidden">
+            <div className="flex flex-col items-center underline decoration-dotted sm:hidden">
               Learn More ...
             </div>
           </div>
