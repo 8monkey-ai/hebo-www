@@ -72,8 +72,8 @@ export default function RootLayout({
                     <Image
                       src="/hebo.png"
                       alt="Hebo AI"
-                      width={20}
-                      height={20}
+                      width={24}
+                      height={24}
                       className="h:6 w-6 sm:h-8 sm:w-8"
                     />
                     Hebo
