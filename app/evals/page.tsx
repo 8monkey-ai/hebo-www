@@ -35,7 +35,7 @@ export default function Home() {
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">Assistant:</span>{" "}
+              <span className="font-semibold text-purple-800">Assistant:</span>
               Of course! Could you share your order ID, please?
             </p>
 
@@ -50,7 +50,7 @@ export default function Home() {
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">Assistant:</span>{" "}
+              <span className="font-semibold text-purple-800">Assistant:</span>
               Thanks! Your order is on the way and should arrive by tomorrow
               evening.
             </p>
@@ -60,9 +60,9 @@ export default function Home() {
         <div id="message" className="flex flex-col gap-4">
           <div className="text-4xl font-light">Hebo Evals</div>
           <div className="max-w-md text-5xl font-medium">
-            Evaluate{" "}
-            <span className="underline decoration-dotted">Prompts</span> /{" "}
-            <span className="underline decoration-dotted">LLMs</span> /{" "}
+            Evaluate
+            <span className="underline decoration-dotted">Prompts</span> /
+            <span className="underline decoration-dotted">LLMs</span> /
             <span className="underline decoration-dotted">Agents</span>
           </div>
           <ul className="text-lg/7">

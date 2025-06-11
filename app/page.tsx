@@ -26,19 +26,18 @@ export default function Home() {
           </div>
           <div id="description" className="flex flex-col gap-2 text-base/6">
             <p>
-              Hebo is the fastest way to build and scale{" "}
-              <span className="underline decoration-dotted">high-quality</span>{" "}
-              conversational agents.{" "}
+              Hebo is the fastest way to build and scale
+              <span className="underline decoration-dotted">high-quality</span>
+              conversational agents.
             </p>
             <p>
-              A stack that includes primitives for{" "}
+              A stack that includes primitives for
               <span className="font-semibold">RAG, Tools & Memory</span>,
-              enabling fine-grained control over conversation content &
-              quality.{" "}
+              enabling fine-grained control over conversation content & quality.
             </p>
             <p>
-              A toolchain for{" "}
-              <span className="font-semibold">evaluations & observability</span>{" "}
+              A toolchain for
+              <span className="font-semibold">evaluations & observability</span>
               that allows tech and business teams iterate quickly on the
               agent&apos;s capabilities.
             </p>
@@ -66,7 +65,7 @@ export default function Home() {
               </a>
             </Button>
             <a
-              href="https://github.com/heboai/hebo/"
+              href="http://github.com/heboai/hebo/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-base font-medium hover:underline"
@@ -80,7 +79,7 @@ export default function Home() {
       <a href="/evals">
         <div
           id="hebo-evals"
-          className="mx-auto flex w-full flex-row gap-2 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 p-4 hover:bg-stone-50 sm:max-w-5xl"
+          className="mx-auto flex w-full flex-row gap-2 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 p-4 sm:max-w-5xl"
         >
           <Image
             src="/hebo-evals.png"
@@ -98,17 +97,17 @@ export default function Home() {
             </div>
             <ul className="mx-5 list-disc space-y-1">
               <li>
-                Write sample conversations using{" "}
+                Write sample conversations using
                 <span className="font-semibold">simple Markdown</span>
               </li>
               <li>
-                Test against your system{" "}
-                <span className="font-semibold">prompts</span>, (fine-tuned){" "}
-                <span className="font-semibold">LLMs</span> or custom{" "}
+                Test against your system
+                <span className="font-semibold">prompts</span>, (fine-tuned)
+                <span className="font-semibold">LLMs</span> or custom
                 <span className="font-semibold">Agents</span>
               </li>
               <li>
-                Seamlessly integrate into your existing{" "}
+                Seamlessly integrate into your existing
                 <span className="font-semibold">CI / CD pipelines</span>
               </li>
             </ul>
@@ -125,23 +124,23 @@ export default function Home() {
             Hebo seamlessly integrates with your existing choices
           </div>
           <div className="flex items-center gap-1">
-            <Brain size={16} /> Choose any state-of-the-art{" "}
+            <Brain size={16} /> Choose any state-of-the-art
             <span className="font-semibold">LLM</span>
           </div>
           <div className="flex items-center gap-1">
-            <Code size={16} /> Wrap into your favorite{" "}
+            <Code size={16} /> Wrap into your favorite
             <span className="font-semibold">Framework</span>
           </div>
           <div className="flex items-center gap-1">
-            <MessageCircleMore size={16} /> Connect to all common{" "}
+            <MessageCircleMore size={16} /> Connect to all common
             <span className="font-semibold">Messengers</span>
           </div>
           <div className="flex items-center gap-1">
-            <UsersRound size={16} /> Route through existing{" "}
+            <UsersRound size={16} /> Route through existing
             <span className="font-semibold">Team Inbox</span>
           </div>
           <div className="flex items-center gap-1">
-            <Cloudy size={16} /> Host on any leading{" "}
+            <Cloudy size={16} /> Host on any leading
             <span className="font-semibold">Cloud Provider</span>
           </div>
         </div>
