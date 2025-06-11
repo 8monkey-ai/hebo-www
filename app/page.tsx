@@ -131,6 +131,7 @@ export default function Home() {
           <CircleChevronRight
             size={64}
             className="mr-10 hidden text-gray-300 group-hover:text-gray-400 sm:block"
+            strokeWidth={1.5}
           />
         </div>
       </a>
