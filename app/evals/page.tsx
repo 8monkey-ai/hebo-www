@@ -22,16 +22,23 @@ export default function Home() {
           <figcaption className="flex items-center justify-center text-sm font-medium text-gray-500">
             conversation.md
           </figcaption>
-          <pre className="flex flex-col gap-4 p-4 text-xs text-wrap">
+          <pre className="flex flex-col gap-4 p-4 pt-0 text-xs text-wrap">
+            <p>
+              ---<br />
+              <span className="font-semibold text-gray-800">Evaluators:</span> Guideline Adherence<br />
+              <span className="font-semibold text-gray-800">Tools:</span> Order Mgmt, Hand-off<br />
+              ---
+            </p>
+
             <p>
               <span className="font-semibold text-purple-800">System:</span> You
-              are a helpful and concise virtual assistant for an e-commerce
+              are a helpful and concise assistant for an e-commerce
               platform. Keep answers short and friendly.
             </p>
 
             <p>
               <span className="font-semibold text-blue-800">User:</span> Hi! Can
-              you help me track my order?
+              you track my order?
             </p>
 
             <p>
@@ -51,8 +58,7 @@ export default function Home() {
 
             <p>
               <span className="font-semibold text-purple-800">Assistant:</span>
-              Thanks! Your order is on the way and should arrive by tomorrow
-              evening.
+              Thanks! Your order is on the way and should arrive tomorrow.
             </p>
           </pre>
         </figure>
@@ -60,10 +66,10 @@ export default function Home() {
         <div id="message" className="flex flex-col gap-4">
           <div className="text-4xl font-light">Hebo Evals</div>
           <div className="max-w-md text-5xl font-medium">
-            Evaluate
-            <span className="underline decoration-dotted">Prompts</span> /
-            <span className="underline decoration-dotted">LLMs</span> /
-            <span className="underline decoration-dotted">Agents</span>
+            Evaluate{" "}
+            <span className="underline decoration-dotted">Prompts</span> /{" "}
+            <span className="underline decoration-dotted">LLMs</span> /{" "}
+            <span className="underline decoration-dotted">Agents</span>{" "}
           </div>
           <ul className="text-lg/7">
             <li>✔ Write evals in simple markdown</li>
