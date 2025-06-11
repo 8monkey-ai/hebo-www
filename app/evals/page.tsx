@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { CopyButton } from "@/app/evals/CopyButton";
@@ -99,9 +100,9 @@ export default function Home() {
           </div>
           <pre className="text-medium flex items-center gap-2">
             $ npm install hebo-evals@latest
-            <CopyButton 
-              textToCopy="npm install hebo-evals@latest" 
-              className="text-gray-500 hover:text-gray-900 cursor-pointer"
+            <CopyButton
+              textToCopy="npm install hebo-evals@latest"
+              className="cursor-pointer text-gray-500 hover:text-gray-900"
             />
           </pre>
         </div>
@@ -109,9 +110,9 @@ export default function Home() {
 
       <div
         id="hebo-cloud"
-        className="mx-auto flex w-full flex-row gap-2 rounded-xl border-2 border-solid border-gray-300 bg-stone-100 p-4 sm:max-w-5xl sm:bg-[url('/bg-hebo-cloud.png')] sm:bg-size-[auto_120px] sm:bg-[calc(100%-30px)_center] sm:bg-no-repeat"
+        className="mx-auto flex w-full flex-col items-center gap-4 rounded-xl border-2 border-solid border-gray-300 bg-stone-100 p-4 sm:max-w-5xl sm:flex-row sm:items-end sm:bg-[url('/bg-hebo-cloud.png')] sm:bg-size-[auto_120px] sm:bg-[calc(100%-30px)_center] sm:bg-no-repeat"
       >
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-grow flex-col gap-3">
           <div className="flex flex-col items-center gap-2 text-2xl font-semibold md:flex-row">
             <Badge className="rounded-lg bg-orange-500 text-sm text-white">
               COMING SOON
@@ -132,6 +133,24 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <Button
+          asChild
+          className="h-12 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 px-3 text-base font-semibold text-stone-900 hover:bg-stone-200 sm:mr-3"
+        >
+          <a
+            href="https://discord.gg/cCJtXZRU5p"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/discord-purple.png"
+              alt="Hebo AI"
+              width={32}
+              height={32}
+            />
+            Get Early Access
+          </a>
+        </Button>
       </div>
     </div>
   );

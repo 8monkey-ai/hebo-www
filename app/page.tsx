@@ -101,7 +101,7 @@ export default function Home() {
             height={200}
             className="-mt-11 -ml-13 hidden h-[175px] w-[175px] md:block"
           />
-          <div className="flex flex-grow flex-col gap-4">
+          <div className="flex flex-grow flex-col gap-3">
             <div className="flex flex-col items-center gap-2 text-2xl font-semibold md:flex-row">
               <Badge className="rounded-lg bg-green-600 text-sm text-white">
                 NEW
