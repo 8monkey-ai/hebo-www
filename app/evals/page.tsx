@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Copy } from "lucide-react";
+import { CopyButton } from "@/app/evals/CopyButton";
 
 export const metadata = {
   title: "Hebo AI - Evaluate Prompts / LLMs / Agents",
@@ -99,7 +99,10 @@ export default function Home() {
           </div>
           <pre className="text-medium flex items-center gap-2">
             $ npm install hebo-evals@latest
-            <Copy size={16} className="text-gray-500 hover:text-gray-900" />
+            <CopyButton 
+              textToCopy="npm install hebo-evals@latest" 
+              className="text-gray-500 hover:text-gray-900 cursor-pointer"
+            />
           </pre>
         </div>
       </div>
@@ -110,7 +113,7 @@ export default function Home() {
       >
         <div className="flex flex-col gap-4">
           <div className="flex flex-col items-center gap-2 text-2xl font-semibold md:flex-row">
-            <Badge className="rounded-lg bg-green-600 text-sm text-white">
+            <Badge className="rounded-lg bg-orange-500 text-sm text-white">
               COMING SOON
             </Badge>
             <div className="">Hebo Cloud</div>
