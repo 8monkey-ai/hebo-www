@@ -32,21 +32,27 @@ export default function Home() {
             </p>
             <p>
               ✔️ A gateway that unifies access to all{" "}
-              <span className="font-semibold">SOTA LLMs</span>{" "}
-              provides low-latency / high-throughput completions & embeddings.
+              <span className="font-semibold">SOTA LLMs</span> provides
+              low-latency / high-throughput completions & embeddings.
             </p>
             <p>
               ✔️ A stack with primitives for{" "}
-              <span className="font-semibold">RAG, Tools & Memory</span>{" "}
-              allows fine-grained control over conversation content & quality.
+              <span className="font-semibold">RAG, Tools & Memory</span> allows
+              fine-grained control over conversation content & quality.
             </p>
             <p>
               ✔️ A toolchain for{" "}
-              <span className="font-semibold">evaluations & observability</span>{" "}
-              enables tech and business teams iterate quickly on
-              agent capabilities.
+              <span className="font-semibold">Evaluations & Observability</span>{" "}
+              enables tech and business teams iterate quickly on agent
+              capabilities.
             </p>
-            <p>or in short: <span className="underline decoration-dotted">the Supabase for LLM apps</span>.</p>
+            <p>
+              or in short:{" "}
+              <span className="underline decoration-dotted">
+                the Supabase for LLM apps
+              </span>
+              .
+            </p>
           </div>
           <div
             id="ctas"
@@ -108,7 +114,7 @@ export default function Home() {
               </li>
               <li>
                 Test against your system{" "}
-                <span className="font-semibold">prompts</span>, (fine-tun{" "}ed){" "}
+                <span className="font-semibold">prompts</span>, (fine-tun ed){" "}
                 <span className="font-semibold">LLMs</span> or custom{" "}
                 <span className="font-semibold">Agents</span>
               </li>

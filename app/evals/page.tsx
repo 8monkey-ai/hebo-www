@@ -13,7 +13,7 @@ export default function Home() {
     <div id="main" className="mx-auto flex w-full flex-col gap-15 sm:p-5">
       <div
         id="hero"
-        className="mx-auto flex w-full max-w-5xl flex-col gap-8 bg-[url('/hero-evals.png')] bg-size-[auto_145px] bg-[right_calc(100%+50px)] bg-no-repeat sm:flex-row sm:bg-size-[auto_290px] sm:bg-bottom-right"
+        className="mx-auto flex w-full max-w-5xl flex-col items-center gap-8 bg-[url('/hero-evals.png')] bg-size-[auto_145px] bg-[right_calc(100%+50px)] bg-no-repeat sm:flex-row sm:bg-size-[auto_290px] sm:bg-bottom-right"
       >
         <figure
           id="conversation.md"
@@ -24,21 +24,28 @@ export default function Home() {
           </figcaption>
           <pre className="flex flex-col gap-4 p-4 pt-0 text-xs text-wrap">
             <p>
-              ---<br />
-              <span className="font-semibold text-gray-800">Evaluators:</span> Guideline Adherence<br />
-              <span className="font-semibold text-gray-800">Tools:</span> Order Mgmt, Hand-off<br />
+              ---
+              <br />
+              <span className="font-semibold text-gray-800">
+                Evaluators:
+              </span>{" "}
+              Guideline Adherence
+              <br />
+              <span className="font-semibold text-gray-800">Tools:</span> Order
+              Mgmt, Hand-off
+              <br />
               ---
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">System:</span>{" "}
-              You are a helpful and concise assistant for an
-              e-commerce platform. Keep answers short and friendly.
+              <span className="font-semibold text-purple-800">System:</span> You
+              are a helpful and concise assistant for an e-commerce platform.
+              Keep answers short and friendly.
             </p>
 
             <p>
-              <span className="font-semibold text-blue-800">User:</span>{" "}
-              Hi! Can you track my order?
+              <span className="font-semibold text-blue-800">User:</span> Hi! Can
+              you track my order?
             </p>
 
             <p>
@@ -47,13 +54,13 @@ export default function Home() {
             </p>
 
             <p>
-              <span className="font-semibold text-blue-800">User:</span>{" "}
-              Sure, it&apos;s #8927341.
+              <span className="font-semibold text-blue-800">User:</span> Sure,
+              it&apos;s #8927341.
             </p>
 
             <p>
-              <span className="font-semibold text-gray-800">Tool:</span>{" "}
-              Order Mgmt(#8927341)
+              <span className="font-semibold text-gray-800">Tool:</span> Order
+              Mgmt(#8927341)
             </p>
 
             <p>
