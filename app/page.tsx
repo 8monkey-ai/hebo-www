@@ -31,13 +31,13 @@ export default function Home() {
               conversational agents:
             </p>
             <p>
-              ✔️ A gateway provides unified access to all{" "}
-              <span className="font-semibold">SOTA LLMs</span>,{" "}
-              offering low-latency / high-throughput completions & embeddings.
+              ✔️ A gateway that unifies access to all{" "}
+              <span className="font-semibold">SOTA LLMs</span>{" "}
+              provides low-latency / high-throughput completions & embeddings.
             </p>
             <p>
-              ✔️ A stack includes primitives for{" "}
-              <span className="font-semibold">RAG, Tools & Memory</span>,{" "}
+              ✔️ A stack with primitives for{" "}
+              <span className="font-semibold">RAG, Tools & Memory</span>{" "}
               allows fine-grained control over conversation content & quality.
             </p>
             <p>
