@@ -38,12 +38,12 @@ export default function Home() {
             <p>
               ✔️ A stack includes primitives for{" "}
               <span className="font-semibold">RAG, Tools & Memory</span>,{" "}
-              enabling fine-grained control over conversation content & quality.
+              allows fine-grained control over conversation content & quality.
             </p>
             <p>
               ✔️ A toolchain for{" "}
               <span className="font-semibold">evaluations & observability</span>{" "}
-              allows tech and business teams iterate quickly on
+              enables tech and business teams iterate quickly on
               agent capabilities.
             </p>
             <p>or in short: <span className="underline decoration-dotted">the Supabase for LLM apps</span>.</p>
