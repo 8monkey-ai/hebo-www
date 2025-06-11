@@ -26,20 +26,25 @@ export default function Home() {
           </div>
           <div id="description" className="flex flex-col gap-2 text-base/6">
             <p>
-              Hebo is the fastest way to build and scale
-              <span className="underline decoration-dotted">high-quality</span>
+              Hebo is the fastest way to build and scale{" "}
+              <span className="underline decoration-dotted">high-quality</span>{" "}
               conversational agents.
             </p>
             <p>
-              A stack that includes primitives for
-              <span className="font-semibold">RAG, Tools & Memory</span>,
+              ✔️ A gateway provides unified access to all{" "}
+              <span className="font-semibold">SOTA LLMs</span>,{" "}
+              for a "hello world" experience in less than 5 minutes.
+            </p>
+            <p>
+              ✔️ A stack includes primitives for{" "}
+              <span className="font-semibold">RAG, Tools & Memory</span>,{" "}
               enabling fine-grained control over conversation content & quality.
             </p>
             <p>
-              A toolchain for
-              <span className="font-semibold">evaluations & observability</span>
-              that allows tech and business teams iterate quickly on the
-              agent&apos;s capabilities.
+              ✔️ A toolchain for{" "}
+              <span className="font-semibold">evaluations & observability</span>{" "}
+              allows tech and business teams iterate quickly on
+              agent capabilities.
             </p>
           </div>
           <div
@@ -97,17 +102,17 @@ export default function Home() {
             </div>
             <ul className="mx-5 list-disc space-y-1">
               <li>
-                Write sample conversations using
+                Write sample conversations using{" "}
                 <span className="font-semibold">simple Markdown</span>
               </li>
               <li>
-                Test against your system
-                <span className="font-semibold">prompts</span>, (fine-tuned)
-                <span className="font-semibold">LLMs</span> or custom
+                Test against your system{" "}
+                <span className="font-semibold">prompts</span>, (fine-tun{" "}ed){" "}
+                <span className="font-semibold">LLMs</span> or custom{" "}
                 <span className="font-semibold">Agents</span>
               </li>
               <li>
-                Seamlessly integrate into your existing
+                Seamlessly integrate into your existing{" "}
                 <span className="font-semibold">CI / CD pipelines</span>
               </li>
             </ul>
