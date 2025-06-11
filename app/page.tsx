@@ -14,7 +14,7 @@ export default function Home() {
     <div id="main" className="mx-auto flex w-full flex-col gap-15 sm:p-5">
       <div
         id="hero"
-        className="w-full bg-[url('/hero.png')] bg-size-[auto_300px] bg-bottom-right bg-no-repeat pb-50 sm:gap-10 sm:bg-size-[auto_400px] sm:bg-top-right sm:pb-15"
+        className="w-full bg-[url('/hero.png')] bg-size-[auto_300px] bg-bottom-right bg-no-repeat pb-50 sm:gap-10 sm:bg-size-[auto_400px] sm:bg-top-right sm:pb-5"
       >
         <div id="hero-content" className="flex flex-col gap-4 sm:max-w-xl">
           <div
@@ -28,7 +28,7 @@ export default function Home() {
             <p>
               Hebo is the fastest way to build and scale{" "}
               <span className="underline decoration-dotted">high-quality</span>{" "}
-              conversational agents.
+              conversational agents:
             </p>
             <p>
               ✔️ A gateway provides unified access to all{" "}
@@ -46,6 +46,7 @@ export default function Home() {
               allows tech and business teams iterate quickly on
               agent capabilities.
             </p>
+            <p>or in short: <span className="underline decoration-dotted">the Supabase for LLM apps</span>.</p>
           </div>
           <div
             id="ctas"
