@@ -31,33 +31,33 @@ export default function Home() {
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">System:</span> You
-              are a helpful and concise assistant for an e-commerce
-              platform. Keep answers short and friendly.
+              <span className="font-semibold text-purple-800">System:</span>{" "}
+              You are a helpful and concise assistant for an
+              e-commerce platform. Keep answers short and friendly.
             </p>
 
             <p>
-              <span className="font-semibold text-blue-800">User:</span> Hi! Can
-              you track my order?
+              <span className="font-semibold text-blue-800">User:</span>{" "}
+              Hi! Can you track my order?
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">Assistant:</span>
+              <span className="font-semibold text-purple-800">Assistant:</span>{" "}
               Of course! Could you share your order ID, please?
             </p>
 
             <p>
-              <span className="font-semibold text-blue-800">User:</span> Sure,
-              it&apos;s #8927341.
+              <span className="font-semibold text-blue-800">User:</span>{" "}
+              Sure, it&apos;s #8927341.
             </p>
 
             <p>
-              <span className="font-semibold text-gray-800">Tool:</span> Order
-              Mgmt(#8927341)
+              <span className="font-semibold text-gray-800">Tool:</span>{" "}
+              Order Mgmt(#8927341)
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">Assistant:</span>
+              <span className="font-semibold text-purple-800">Assistant:</span>{" "}
               Thanks! Your order is on the way and should arrive tomorrow.
             </p>
           </pre>
