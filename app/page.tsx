@@ -33,7 +33,7 @@ export default function Home() {
             <p>
               ✔️ A gateway provides unified access to all{" "}
               <span className="font-semibold">SOTA LLMs</span>,{" "}
-              offering low-latency & high-throughput token performance.
+              offering low-latency / high-throughput completions & embeddings.
             </p>
             <p>
               ✔️ A stack includes primitives for{" "}
