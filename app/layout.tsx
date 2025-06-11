@@ -6,6 +6,7 @@ import type { Viewport } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -63,7 +64,7 @@ export default function RootLayout({
           <div id="nav" className="flex justify-center">
             <div className="flex w-full items-center justify-between">
               <div className="items-top flex gap-1">
-                <a href="/">
+                <Link href="/">
                   <div
                     id="logo"
                     className="flex items-center gap-1 text-xl/5 font-semibold sm:text-2xl/10"
@@ -77,7 +78,7 @@ export default function RootLayout({
                     />
                     Hebo
                   </div>
-                </a>
+                </Link>
                 <a
                   href="https://www.linkedin.com/company/heboai/jobs/"
                   target="_blank"
