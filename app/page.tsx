@@ -92,7 +92,7 @@ export default function Home() {
       <a href="/evals">
         <div
           id="hebo-evals"
-          className="group mx-auto flex w-full flex-row items-center justify-between gap-2 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 p-4 transition hover:shadow-[0_0_6px_1px_rgba(55,48,163,0.6)] sm:max-w-5xl"
+          className="mx-auto flex w-full flex-row items-center justify-between gap-2 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 p-4 transition hover:shadow-[0_0_6px_1px_rgba(55,48,163,0.6)] sm:max-w-5xl"
         >
           <Image
             src="/hebo-evals.png"
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
           <CircleChevronRight
             size={64}
-            className="mr-10 hidden text-gray-300 group-hover:text-gray-400 sm:block"
+            className="mr-10 hidden text-gray-300 sm:block"
             strokeWidth={1.5}
           />
         </div>
