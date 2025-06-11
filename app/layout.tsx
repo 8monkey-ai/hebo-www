@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Hebo AI - Build Conversational Agents with TypeScript",
   description:
-    "Hebo is a toolchain that streamlines the development & operations of conversational agents",
+    "Hebo is the fastest way to build and scale high-quality conversational agents. ✔️ All SOTA LLMs ✔️ RAG, Tools & Memory ✔️ Evaluations & Observability",
 };
 
 export const viewport: Viewport = {
