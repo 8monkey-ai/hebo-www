@@ -123,7 +123,7 @@ export default function RootLayout({
                   asChild
                   className="h-8 rounded-2xl border-2 border-solid border-indigo-800 bg-stone-100 py-0 text-sm font-semibold text-stone-900 hover:bg-stone-200"
                 >
-                    <a href="https://cloud.hebo.ai" target="_blank">
+                    <a href="https://console.hebo.ai" target="_blank">
                       Cloud
                     
                       <Badge className="absolute -mt-8 ml-12 h-5 rotate-6 rounded-lg bg-orange-500 text-xs">
