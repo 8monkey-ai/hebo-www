@@ -12,7 +12,7 @@ export default $config({
   },
   async run() {
     new sst.aws.StaticSite("HeboWww", {
-      path: "apps/www",
+      path: ".",
       build: {
         command: "bun run build",
         output: "build/client",
