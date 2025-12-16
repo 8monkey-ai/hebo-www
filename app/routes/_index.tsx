@@ -26,7 +26,7 @@ export default function Home() {
                 rel="noreferrer"
               />
             }
-            className="text-medium h-10 bg-indigo-900 px-5 text-white hover:bg-indigo-800"
+            className="h-10 px-5 text-medium text-white bg-indigo-900 hover:bg-indigo-800"
           >
             Get Started
           </Button>
@@ -39,7 +39,7 @@ export default function Home() {
                 rel="noreferrer"
               />
             }
-            className="h-10 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 px-5 text-base font-semibold text-stone-900 hover:bg-stone-200"
+            className="h-10 px-5 text-base font-semibold text-stone-900 border-2 rounded-xl border-indigo-800 bg-stone-50 hover:bg-indigo-50"
           >
             Docs
           </Button>

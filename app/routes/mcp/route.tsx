@@ -79,12 +79,12 @@ export default function MCP() {
     <>
       <div
         id="hero"
-        className="mx-auto flex max-w-4xl flex-col gap-4 text-center"
+        className="mx-auto max-w-4xl flex flex-col gap-4 text-center"
       >
         <img src="/hebo-mcp.png" alt="MCP Hero" className="mx-auto size-42" />
         <h1 className="relative mx-auto w-fit text-4xl font-semibold">
           Ready-to-use <span className="text-nowrap">MCP Servers</span>
-          <span className="absolute rotate-10 rounded-md bg-lime-600 px-2 py-0.5 text-base text-white sm:-top-4 sm:-right-8">
+          <span className="absolute rotate-10 px-2 py-0.5 sm:-top-4 sm:-right-8 rounded-md bg-lime-600 text-base text-white">
             FREE
           </span>
         </h1>
@@ -92,7 +92,7 @@ export default function MCP() {
           When Agents Struggle, MCP Solves It — Counting, Dates, Units, and
           More. Experiment freely. Deploy reliably. We host for you.
         </p>
-        <p className="mx-auto flex flex-row items-center gap-2 font-semibold text-indigo-800">
+        <p className="mx-auto flex flex-row gap-2 items-center font-semibold text-indigo-800">
           <a href="https://mcp.hebo.ai/" target="_blank" rel="noreferrer">
             https://mcp.hebo.ai/aikit/
           </a>
@@ -104,15 +104,15 @@ export default function MCP() {
         <h2 className="mb-4 text-xl font-semibold">
           Discover available toolkits
         </h2>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          <div className="bg-secondary flex flex-col gap-2 rounded-md p-4 text-sm hover:bg-slate-100">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-slate-100">
             <a href="#code-samples" className="contents">
               <div className="flex flex-row items-center gap-1 font-semibold">
                 <Tally5 />
                 Counting
                 <Button
                   variant="outline"
-                  className="ml-auto border-indigo-800 px-3 text-indigo-800"
+                  className="ml-auto px-3 text-indigo-800 border-indigo-800"
                 >
                   Connect
                 </Button>
@@ -120,20 +120,20 @@ export default function MCP() {
               <div>How many r’s are there in “Strawberry”?</div>
             </a>
           </div>
-          <div className="bg-secondary flex flex-col gap-2 rounded-md p-4 text-sm hover:bg-slate-100">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-slate-100">
             <div className="flex flex-row items-center gap-1 font-semibold">
               <CalendarClock />
               Date Time
-              <span className="text-muted-foreground ml-auto text-sm font-semibold">
+              <span className="ml-auto text-sm font-semibold text-muted-foreground">
                 Coming Soon
               </span>
             </div>
             <div>Convert dates and times into specific time zones</div>
           </div>
-          <div className="bg-secondary flex flex-col gap-2 rounded-md p-4 text-sm hover:bg-slate-100">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-slate-100">
             {/* FUTURE: create reddit thread */}
             <a href="#reddit" className="contents">
-              <div className="m-auto flex w-full flex-row items-center justify-between gap-4">
+              <div className="m-auto w-full flex flex-row items-center justify-between gap-4">
                 <Reddit size={48} />
                 <div>
                   <div className="font-semibold">What do you need?</div>
@@ -145,7 +145,7 @@ export default function MCP() {
           </div>
         </div>
 
-        <div className="text-muted-foreground mt-8 flex flex-row items-center justify-center gap-2 text-sm sm:text-base">
+        <div className="mt-8 flex flex-row items-center justify-center gap-2 text-sm sm:text-base text-muted-foreground ">
           Use our pre-hosted tools with any LLM & AI SDK{" "}
           <ArrowDown size={18} className="animate-bounce" />
         </div>
@@ -153,12 +153,12 @@ export default function MCP() {
 
       <div
         id="code-samples"
-        className="flex w-full flex-col gap-4 rounded-md bg-slate-100 p-4 sm:grid sm:grid-cols-[38fr_62fr] sm:gap-8"
+        className="w-full flex flex-col gap-4 p-4 rounded-md bg-slate-100 sm:grid sm:grid-cols-[38fr_62fr] sm:gap-8"
       >
-        <div className="flex min-w-0 flex-col gap-4">
+        <div className="min-w-0 flex flex-col gap-4">
           <h2 className="text-xl font-semibold">Get started in 60 seconds</h2>
           <Select defaultValue="Counting">
-            <SelectTrigger className="bg-background w-full">
+            <SelectTrigger className="w-full bg-background">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
@@ -186,7 +186,7 @@ export default function MCP() {
             </FieldLabel>
           </RadioGroup>
         </div>
-        <div className="flex h-84 min-w-0">
+        <div className=" min-w-0 flex h-84">
           <CodeGroup defaultValue="vercel">
             <TabsList>
               <TabsTrigger value="vercel">Vercel AI SDK</TabsTrigger>
@@ -202,7 +202,7 @@ export default function MCP() {
         </div>
       </div>
 
-      <section className="mx-auto max-w-3xl space-y-2 text-base leading-relaxed font-normal">
+      <section className="max-w-3xl mx-auto space-y-2 text-base font-normal leading-relaxed">
         <h2 className="text-xl font-semibold">
           Why we are building mcp.hebo.ai
         </h2>
@@ -252,7 +252,7 @@ export default function MCP() {
             target="_blank"
             rel="noreferrer"
             aria-label="Hebo on X"
-            className="text-nowrap underline underline-offset-2"
+            className="underline"
           >
             @heboai
           </a>
@@ -262,7 +262,7 @@ export default function MCP() {
             target="_blank"
             rel="noreferrer"
             aria-label="Join the Hebo Discord"
-            className="underline underline-offset-2"
+            className="underline"
           >
             Discord
           </a>

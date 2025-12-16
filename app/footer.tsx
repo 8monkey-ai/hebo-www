@@ -1,12 +1,13 @@
 import { Brain, Gauge, SquareFunction } from "lucide-react";
 import { Link } from "react-router";
+import { Button } from "./components/button";
 
 export default function Footer() {
   return (
-    <footer className="mb-5 flex flex-col gap-10">
-      <section className="border-border mx-auto max-w-5xl rounded-xl border bg-slate-100 p-6 ">
-        <div className="relative grid gap-8 sm:grid-cols-[1.3fr_1fr] sm:items-center">
-          <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:items-center sm:text-left">
+    <footer className="flex flex-col mb-5 gap-10">
+      <section className="max-w-5xl mx-auto border border-border rounded-xl p-6 bg-slate-100">
+        <div className="relative grid sm:grid-cols-[1.3fr_1fr] sm:items-center gap-8">
+          <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:text-left gap-4">
             <img src="/hebo.png" alt="Hebo Cloud" className="h-32 w-32" />
             <div className="flex flex-col gap-2">
               <h2 className="text-2xl font-semibold sm:text-3xl">Hebo Cloud</h2>
@@ -15,34 +16,25 @@ export default function Footer() {
                 <span className="text-nowrap">high-quality</span> conversational
                 agents.
               </p>
-              <div className="flex flex-wrap items-center justify-center gap-3 sm:justify-start">
-                <a
-                  href="https://console.hebo.ai"
-                  target="_blank"
-                  className="bg-primary hover:bg-primary/70 rounded-xl px-4 py-1 font-medium"
-                  rel="noreferrer"
-                >
+              <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1">
+                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                <Button render={<a href="https://console.hebo.ai" target="_blank" rel="noreferrer" />} className="font-semibold">
                   Try Hebo Cloud
-                </a>
-                <a
-                  href="https://console.hebo.ai"
-                  target="_blank"
-                  className="font-semibold hover:underline"
-                  rel="noreferrer"
-                >
+                </Button>
+                <Button variant="ghost" render={<a href="https://console.hebo.ai" target="_blank" rel="noreferrer" />} className="hover:underline">
                   Start for free →
-                </a>
+                </Button>
               </div>
             </div>
           </div>
-          <div className="grid w-full gap-3 sm:grid-cols-3">
+          <div className="w-full grid sm:grid-cols-3 gap-3">
             <a
               className="contents"
               href="https://console.hebo.ai"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="flex gap-2 rounded-xl bg-white/70 p-4 hover:bg-white sm:flex-col">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-white">
                 <Brain className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">Gateway &gt;</div>
@@ -53,7 +45,7 @@ export default function Footer() {
               </div>
             </a>
             <Link className="contents" to="/mcp">
-              <div className="flex gap-2 rounded-xl bg-white/70 p-4 hover:bg-white sm:flex-col">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-white">
                 <SquareFunction className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">MCP &gt;</div>
@@ -64,7 +56,7 @@ export default function Footer() {
               </div>
             </Link>
             <Link className="contents" to="/evals">
-              <div className="flex gap-2 rounded-xl bg-white/70 p-4 hover:bg-white sm:flex-col">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-white">
                 <Gauge className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">Evals &gt;</div>

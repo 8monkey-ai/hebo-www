@@ -5,8 +5,8 @@ import { Discord, Github, X } from "./components/icons";
 export default function Header() {
   return (
     <header>
-      <nav className="grid grid-cols-[1fr_auto] items-center gap-4 sm:grid-cols-[1fr_auto_1fr]">
-        <div className="flex flex-row items-center gap-2 text-lg font-semibold sm:text-xl">
+      <nav className="grid grid-cols-[1fr_auto] sm:grid-cols-[1fr_auto_1fr] items-center gap-4">
+        <div className="flex flex-row items-center gap-2 font-semibold text-lg sm:text-xl">
           <Link to="/" className="contents">
             <img
               src="https://hebo.ai/icon.png"
@@ -16,7 +16,7 @@ export default function Header() {
             hebo.ai
           </Link>
         </div>
-        <div className="hidden flex-row items-center justify-center gap-6 sm:flex">
+        <div className="hidden sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6">
           <a
             href="https://console.hebo.ai"
             target="_blank"
@@ -59,7 +59,7 @@ export default function Header() {
           <a
             href="https://console.hebo.ai"
             target="_blank"
-            className="rounded-2xl border-2 border-indigo-800 px-4 py-1 text-sm font-medium hover:bg-indigo-50"
+            className="rounded-2xl border-2 border-indigo-800 hover:bg-indigo-50 px-4 py-1 text-sm font-medium"
             rel="noreferrer"
             aria-label="Hebo on GitHub"
           >

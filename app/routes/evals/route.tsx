@@ -17,11 +17,11 @@ export default function Evals() {
     <>
       <div
         id="hero"
-        className="mx-auto flex w-full max-w-4xl flex-col-reverse items-center gap-8 bg-[url('/hebo-evals.png')] bg-size-[auto_145px] bg-position-[right_calc(100%+50px)] bg-no-repeat sm:flex-row sm:bg-size-[auto_180px] sm:bg-bottom-right"
+        className="max-w-4xl w-full mx-auto flex flex-col-reverse items-center gap-8 bg-[url('/hebo-evals.png')] bg-size-[auto_145px] bg-position-[right_calc(100%+50px)] bg-no-repeat sm:flex-row sm:bg-size-[auto_180px] sm:bg-bottom-right"
       >
         <figure
           id="conversation.md"
-          className="w-full max-w-3xl overflow-hidden rounded-2xl border border-gray-200 bg-white p-2 shadow-xl sm:max-w-xs"
+          className="max-w-3xl w-full overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl sm:max-w-xs p-2"
         >
           <figcaption className="flex items-center justify-center text-sm font-medium text-gray-500">
             conversation.md
@@ -75,8 +75,8 @@ export default function Evals() {
         </figure>
 
         <div id="message" className="flex flex-col gap-4">
-          <div className="text-3xl font-light sm:text-4xl">Hebo Evals</div>
-          <div className="max-w-md text-4xl font-medium sm:text-5xl">
+          <div className="text-3xl sm:text-4xl font-light">Hebo Evals</div>
+          <div className="max-w-md text-4xl sm:text-5xl font-medium">
             Evaluate{" "}
             <span className="underline decoration-dotted">Prompts</span> /{" "}
             <span className="underline decoration-dotted">LLMs</span> /{" "}
@@ -88,18 +88,14 @@ export default function Evals() {
             <li>✔ Integrate with your CI / CD pipeline</li>
           </ul>
           <div className="flex gap-4">
-            <Button className="text-medium h-10 bg-indigo-900 px-5 text-white hover:bg-indigo-800">
-              <a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer">
-                Get Started
-              </a>
+            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} className="h-10 px-5 text-medium bg-indigo-900 text-white hover:bg-indigo-800">
+              Get Started
             </Button>
-            <Button className="h-10 rounded-xl border-2 border-solid border-indigo-800 bg-stone-100 px-5 text-base font-semibold text-stone-900 hover:bg-stone-200">
-              <a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer">
+            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} className="h-10 px-5 rounded-xl border-2 border-solid border-indigo-800 bg-stone-50 hover:bg-indigo-50 text-base font-semibold text-stone-900">
                 Docs
-              </a>
             </Button>
           </div>
-          <pre className="text-medium flex items-center gap-2">
+          <pre className="flex items-center gap-2 text-medium">
             $ bun install hebo-evals@latest
             <CopyButton
               value="npm install hebo-evals@latest"
@@ -109,7 +105,7 @@ export default function Evals() {
         </div>
       </div>
 
-      <section className="mx-auto max-w-3xl space-y-2 text-base leading-relaxed font-normal">
+      <section className="max-w-3xl mx-auto space-y-2 text-base font-normal leading-relaxed">
         <h2 className="text-xl font-semibold">
           Hebo Evals: Markdown for Evals, a human-first format{" "}
         </h2>
@@ -157,7 +153,7 @@ export default function Evals() {
             target="_blank"
             rel="noreferrer"
             aria-label="Hebo on X"
-            className="text-nowrap underline underline-offset-2"
+            className="underline"
           >
             @heboai
           </a>
@@ -167,7 +163,7 @@ export default function Evals() {
             target="_blank"
             rel="noreferrer"
             aria-label="Join the Hebo Discord"
-            className="underline underline-offset-2"
+            className="underline"
           >
             Discord
           </a>
