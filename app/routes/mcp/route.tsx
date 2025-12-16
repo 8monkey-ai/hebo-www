@@ -112,7 +112,7 @@ export default function MCP() {
                 Counting
                 <Button
                   variant="outline"
-                  className="ml-auto px-3 text-indigo-800 border-indigo-800 cursor-pointer"
+                  className="ml-auto text-indigo-800 border-indigo-800"
                 >
                   Connect
                 </Button>

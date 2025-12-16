@@ -17,7 +17,7 @@ export default function Footer() {
                 agents.
               </p>
               <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1">
-                <Button render={<a href="https://console.hebo.ai" target="_blank" rel="noreferrer" />} className="font-semibold px-3">
+                <Button render={<a href="https://console.hebo.ai" target="_blank" rel="noreferrer" />} className="font-semibold">
                   Try Hebo Cloud
                 </Button>
                 <Button variant="ghost" render={<a href="https://console.hebo.ai" target="_blank" rel="noreferrer" />} className="hover:underline">

@@ -91,7 +91,7 @@ export default function Evals() {
             <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} className="h-10 px-5 text-medium bg-indigo-900 text-secondary hover:bg-indigo-800">
               Get Started
             </Button>
-            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} variant="outline" className="h-10 px-5 rounded-xl border-2 border-solid border-indigo-800 text-base font-semibold">
+            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} variant="outline" className="h-10 px-5 rounded-xl border-2 border-indigo-800 text-base font-semibold">
                 Docs
             </Button>
           </div>
