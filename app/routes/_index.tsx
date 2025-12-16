@@ -19,7 +19,6 @@ export default function Home() {
         <div className="mx-auto flex gap-4">
           <Button
             render={
-              // eslint-disable-next-line jsx-a11y/anchor-has-content
               <a
                 href="https://console.hebo.ai/"
                 target="_blank"
@@ -32,7 +31,6 @@ export default function Home() {
           </Button>
           <Button
             render={
-              // eslint-disable-next-line jsx-a11y/anchor-has-content
               <a
                 href="https://docs.hebo.ai/"
                 target="_blank"

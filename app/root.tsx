@@ -22,7 +22,6 @@ export const links: Route.LinksFunction = () => [
   },
   {
     rel: "stylesheet",
-    // eslint-disable-next-line no-secrets/no-secrets
     href: "https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@400..600,0..1&display=block",
   },
 ];
