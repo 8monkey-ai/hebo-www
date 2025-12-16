@@ -8,7 +8,7 @@ export default function Home() {
         id="hero"
         className="mx-auto flex max-w-4xl flex-col gap-4 text-center"
       >
-        <img src="/hebo.png" alt="MCP Hero" className="mx-auto size-42" />
+        <img src="/hebo.png" alt="Hebo Logo" className="mx-auto size-42" />
         <h1 className="relative mx-auto w-fit text-4xl font-semibold">
           Build agents that actually work
         </h1>
@@ -25,7 +25,7 @@ export default function Home() {
                 rel="noreferrer"
               />
             }
-            className="h-10 px-5 text-medium text-background bg-indigo-900 hover:bg-indigo-800"
+            className="h-10 px-5 text-background bg-indigo-900 hover:bg-indigo-800"
           >
             Get Started
           </Button>
@@ -50,6 +50,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
             className="hover:underline"
+            aria-label="View Hebo on GitHub"
           >
             https://github.com/8monkey-ai/hebo/
           </a>

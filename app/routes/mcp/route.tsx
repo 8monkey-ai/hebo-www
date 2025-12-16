@@ -41,11 +41,11 @@ const mcpClient = await createMCPClient({
   },
 }); 
 
-const { counting_letters } = await mcpClient.tools();
+const { count_letters } = await mcpClient.tools();
 
 const result = await streamText({
   model: "openai/gpt-oss-20b",
-  tools: { counting_letters },
+  tools: { count_letters },
   prompt: "How many r's in Strawberry?",
   onFinish: async () => {
     await mcpClient.close();

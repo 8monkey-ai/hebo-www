@@ -107,7 +107,6 @@
   --color-card: var(--card);
   --color-foreground: var(--foreground);
   --color-background: var(--background);
-  --color-background-gradient: var(--background-gradient);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -132,9 +131,15 @@
     position: fixed;
     inset: 0;
     background:
-      linear-gradient(0deg, #fefce8 0%, #f8fafc 60%) 0 0 / 100% 100vh no-repeat,
-      #fefce8;
-    z-index: -1;
+      linear-gradient(0deg, oklch(0.985 0.03 100) 0%, oklch(0.975 0.005 240) 60%) 0 0 / 100% 100vh no-repeat,
+      oklch(0.985 0.03 100);
+     z-index: -1;
+   }
+
+  .dark body::before {
+    background:
+      linear-gradient(0deg, oklch(0.15 0.042 265) 0%, oklch(0.13 0.04 265) 60%) 0 0 / 100% 100vh no-repeat,
+      oklch(0.15 0.042 265);
   }
 
   html {
