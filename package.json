@@ -6,7 +6,6 @@
     "build": "react-router build",
     "clean": "git clean -fdx -e '.env*' .",
     "dev": "react-router dev --port 4173",
-    "lint": "eslint .",
     "start": "PORT=4173 vite preview",
     "typecheck": "react-router typegen && tsc"
   },

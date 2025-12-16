@@ -9,7 +9,7 @@ export default function Header() {
         <div className="flex flex-row items-center gap-2 font-semibold text-lg sm:text-xl">
           <Link to="/" className="contents">
             <img
-              src="https://hebo.ai/icon.png"
+              src="/icon.png"
               alt="Hebo Logo"
               className="h-6 w-6 sm:h-8 sm:w-8"
             />
@@ -61,7 +61,7 @@ export default function Header() {
             target="_blank"
             className="rounded-2xl border-2 border-indigo-800 hover:bg-indigo-50 px-4 py-1 text-sm font-medium"
             rel="noreferrer"
-            aria-label="Hebo on GitHub"
+            aria-label="Hebo Cloud Console"
           >
             Cloud
           </a>
