@@ -33,7 +33,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-background">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-background/70 p-4 hover:bg-background">
                 <Brain className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">Gateway &gt;</div>
@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
             </a>
             <Link className="contents" to="/mcp">
-              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-background">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-background/70 p-4 hover:bg-background">
                 <SquareFunction className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">MCP &gt;</div>
@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
             </Link>
             <Link className="contents" to="/evals">
-              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-background">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-background/70 p-4 hover:bg-background">
                 <Gauge className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">Evals &gt;</div>
