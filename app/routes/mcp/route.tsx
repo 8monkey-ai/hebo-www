@@ -105,7 +105,7 @@ export default function MCP() {
           Discover available toolkits
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-accent">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-sidebar hover:bg-sidebar/70">
             <a href="#code-samples" className="contents">
               <div className="flex flex-row items-center gap-1 font-semibold">
                 <Tally5 />
@@ -120,7 +120,7 @@ export default function MCP() {
               <div>How many r’s are there in “Strawberry”?</div>
             </a>
           </div>
-          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-accent">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-sidebar hover:bg-sidebar/70">
             <div className="flex flex-row items-center gap-1 font-semibold">
               <CalendarClock />
               Date Time
@@ -130,7 +130,7 @@ export default function MCP() {
             </div>
             <div>Convert dates and times into specific time zones</div>
           </div>
-          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-accent">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-sidebar hover:bg-sidebar/70">
             {/* FUTURE: create reddit thread */}
             <a href="#reddit" className="contents">
               <div className="m-auto w-full flex flex-row items-center justify-between gap-4">
@@ -153,7 +153,7 @@ export default function MCP() {
 
       <div
         id="code-samples"
-        className="w-full flex flex-col gap-4 p-4 rounded-md bg-accent sm:grid sm:grid-cols-[38fr_62fr] sm:gap-8"
+        className="w-full flex flex-col gap-4 p-4 rounded-md bg-sidebar sm:grid sm:grid-cols-[38fr_62fr] sm:gap-8"
       >
         <div className="min-w-0 flex flex-col gap-4">
           <h2 className="text-xl font-semibold">Get started in 60 seconds</h2>

@@ -5,7 +5,7 @@ import { Button } from "./components/button";
 export default function Footer() {
   return (
     <footer className="flex flex-col mb-5 gap-10">
-      <section className="max-w-5xl mx-auto border border-border rounded-xl p-6 bg-sidebar-accent">
+      <section className="max-w-5xl mx-auto border border-border rounded-xl p-6 bg-sidebar">
         <div className="relative grid sm:grid-cols-[1.3fr_1fr] sm:items-center gap-8">
           <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:text-left gap-4">
             <img src="/hebo.png" alt="Hebo Cloud" className="h-32 w-32" />
@@ -33,7 +33,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="flex sm:flex-col gap-2 rounded-xl bg-sidebar p-4 hover:bg-background">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-background">
                 <Brain className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">Gateway &gt;</div>
@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
             </a>
             <Link className="contents" to="/mcp">
-              <div className="flex sm:flex-col gap-2 rounded-xl bg-sidebar p-4 hover:bg-background">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-background">
                 <SquareFunction className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">MCP &gt;</div>
@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
             </Link>
             <Link className="contents" to="/evals">
-              <div className="flex sm:flex-col gap-2 rounded-xl bg-sidebar p-4 hover:bg-background">
+              <div className="flex sm:flex-col gap-2 rounded-xl bg-white/70 p-4 hover:bg-background">
                 <Gauge className="size-10" />
                 <div>
                   <div className="font-semibold sm:text-sm">Evals &gt;</div>

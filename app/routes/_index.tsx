@@ -25,7 +25,7 @@ export default function Home() {
                 rel="noreferrer"
               />
             }
-            className="h-10 px-5 text-medium text-secondary bg-indigo-900 hover:bg-indigo-800"
+            className="h-10 px-5 text-medium text-background bg-indigo-900 hover:bg-indigo-800"
           >
             Get Started
           </Button>
