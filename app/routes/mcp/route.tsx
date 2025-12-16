@@ -84,7 +84,7 @@ export default function MCP() {
         <img src="/hebo-mcp.png" alt="MCP Hero" className="mx-auto size-42" />
         <h1 className="relative mx-auto w-fit text-4xl font-semibold">
           Ready-to-use <span className="text-nowrap">MCP Servers</span>
-          <span className="absolute rotate-10 px-2 py-0.5 sm:-top-4 sm:-right-8 rounded-md bg-lime-600 text-base text-white">
+          <span className="absolute rotate-10 px-2 py-0.5 sm:-top-4 sm:-right-8 rounded-md bg-lime-600 text-base text-background">
             FREE
           </span>
         </h1>
@@ -105,14 +105,14 @@ export default function MCP() {
           Discover available toolkits
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-slate-100">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-accent">
             <a href="#code-samples" className="contents">
               <div className="flex flex-row items-center gap-1 font-semibold">
                 <Tally5 />
                 Counting
                 <Button
                   variant="outline"
-                  className="ml-auto px-3 text-indigo-800 border-indigo-800"
+                  className="ml-auto px-3 text-indigo-800 border-indigo-800 cursor-pointer"
                 >
                   Connect
                 </Button>
@@ -120,7 +120,7 @@ export default function MCP() {
               <div>How many r’s are there in “Strawberry”?</div>
             </a>
           </div>
-          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-slate-100">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-accent">
             <div className="flex flex-row items-center gap-1 font-semibold">
               <CalendarClock />
               Date Time
@@ -130,7 +130,7 @@ export default function MCP() {
             </div>
             <div>Convert dates and times into specific time zones</div>
           </div>
-          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-slate-100">
+          <div className="flex flex-col gap-2 p-4 text-sm rounded-md bg-secondary hover:bg-accent">
             {/* FUTURE: create reddit thread */}
             <a href="#reddit" className="contents">
               <div className="m-auto w-full flex flex-row items-center justify-between gap-4">
@@ -153,7 +153,7 @@ export default function MCP() {
 
       <div
         id="code-samples"
-        className="w-full flex flex-col gap-4 p-4 rounded-md bg-slate-100 sm:grid sm:grid-cols-[38fr_62fr] sm:gap-8"
+        className="w-full flex flex-col gap-4 p-4 rounded-md bg-accent sm:grid sm:grid-cols-[38fr_62fr] sm:gap-8"
       >
         <div className="min-w-0 flex flex-col gap-4">
           <h2 className="text-xl font-semibold">Get started in 60 seconds</h2>

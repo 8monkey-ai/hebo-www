@@ -21,54 +21,54 @@ export default function Evals() {
       >
         <figure
           id="conversation.md"
-          className="max-w-3xl w-full overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl sm:max-w-xs p-2"
+          className="max-w-3xl w-full overflow-hidden rounded-2xl border border-border bg-background shadow-xl sm:max-w-xs p-2"
         >
-          <figcaption className="flex items-center justify-center text-sm font-medium text-gray-500">
+          <figcaption className="flex items-center justify-center text-sm font-medium text-muted-foreground">
             conversation.md
           </figcaption>
           <pre className="flex flex-col gap-4 p-4 pt-0 text-xs text-wrap">
             <p>
               ---
               <br />
-              <span className="font-semibold text-gray-800">
+              <span className="font-semibold text-accent-foreground">
                 Evaluators:
               </span>{" "}
               Guideline Adherence
               <br />
-              <span className="font-semibold text-gray-800">Tools:</span> Order
+              <span className="font-semibold text-accent-foreground">Tools:</span> Order
               Mgmt, Hand-off
               <br />
               ---
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">System:</span> You
+              <span className="font-semibold text-purple-900">System:</span> You
               are a helpful and concise assistant for an e-commerce platform.
               Keep answers short and friendly.
             </p>
 
             <p>
-              <span className="font-semibold text-blue-800">User:</span> Hi! Can
+              <span className="font-semibold text-blue-900">User:</span> Hi! Can
               you track my order?
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">Assistant:</span>{" "}
+              <span className="font-semibold text-purple-900">Assistant:</span>{" "}
               Of course! Could you share your order ID, please?
             </p>
 
             <p>
-              <span className="font-semibold text-blue-800">User:</span> Sure,
+              <span className="font-semibold text-blue-900">User:</span> Sure,
               it&apos;s #8927341.
             </p>
 
             <p>
-              <span className="font-semibold text-gray-800">Tool:</span> Order
+              <span className="font-semibold text-accent-foreground">Tool:</span> Order
               Mgmt(#8927341)
             </p>
 
             <p>
-              <span className="font-semibold text-purple-800">Assistant:</span>{" "}
+              <span className="font-semibold text-purple-900">Assistant:</span>{" "}
               Thanks! Your order is on the way and should arrive tomorrow.
             </p>
           </pre>
@@ -88,10 +88,10 @@ export default function Evals() {
             <li>✔ Integrate with your CI / CD pipeline</li>
           </ul>
           <div className="flex gap-4">
-            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} className="h-10 px-5 text-medium bg-indigo-900 text-white hover:bg-indigo-800">
+            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} className="h-10 px-5 text-medium bg-indigo-900 text-secondary hover:bg-indigo-800">
               Get Started
             </Button>
-            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} className="h-10 px-5 rounded-xl border-2 border-solid border-indigo-800 bg-stone-50 hover:bg-indigo-50 text-base font-semibold text-stone-900">
+            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} variant="outline" className="h-10 px-5 rounded-xl border-2 border-solid border-indigo-800 text-base font-semibold">
                 Docs
             </Button>
           </div>
@@ -99,7 +99,6 @@ export default function Evals() {
             $ bun install hebo-evals@latest
             <CopyButton
               value="npm install hebo-evals@latest"
-              className="cursor-pointer text-gray-500 hover:text-gray-900"
             />
           </pre>
         </div>

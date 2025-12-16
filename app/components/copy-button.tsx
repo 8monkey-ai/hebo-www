@@ -33,7 +33,7 @@ export function CopyButton({
         data-copied={hasCopied}
         className={cn(
           "[&_svg:not([class*='size-'])]:size-4.5",
-          "opacity-70 hover:opacity-100",
+          "opacity-70 hover:opacity-100 cursor-pointer",
           className,
         )}
         onClick={() => {
