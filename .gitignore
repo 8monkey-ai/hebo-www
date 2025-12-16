@@ -8,3 +8,4 @@
 
 # SST
 /.sst/
+sst-env.d.ts

@@ -37,6 +37,7 @@ export default function Header() {
             href="https://x.com/heboai"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Hebo on X (formerly Twitter)"
           >
             <X size={18} />
           </a>
@@ -44,6 +45,7 @@ export default function Header() {
             href="https://discord.com/invite/cCJtXZRU5p"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Join Hebo on Discord"
           >
             <Discord size={18} />
           </a>
@@ -59,6 +61,7 @@ export default function Header() {
             target="_blank"
             className="rounded-2xl border-2 border-indigo-800 px-4 py-1 text-sm font-medium hover:bg-indigo-50"
             rel="noreferrer"
+            aria-label="Hebo on GitHub"
           >
             Cloud
           </a>

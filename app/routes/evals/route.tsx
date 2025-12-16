@@ -12,7 +12,7 @@ export function meta() {
   ];
 }
 
-export default function MCP() {
+export default function Evals() {
   return (
     <>
       <div

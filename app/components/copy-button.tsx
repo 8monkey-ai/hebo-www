@@ -1,9 +1,6 @@
-"use client";
-
 import { Check, Copy } from "lucide-react";
 import * as React from "react";
 
-import { Button } from "~www/components/button";
 import {
   Tooltip,
   TooltipContent,
@@ -15,10 +12,12 @@ export function CopyButton({
   value,
   className,
   tooltip = "Copy to Clipboard",
-}: React.ComponentProps<typeof Button> & {
+}: {
   value: string;
   tooltip?: string;
-}) {
+  className?: string;
+} & React.ComponentProps<"button">) {
+
   const [hasCopied, setHasCopied] = React.useState(false);
 
   React.useEffect(() => {
