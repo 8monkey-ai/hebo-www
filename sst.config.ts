@@ -7,15 +7,23 @@ export default $config({
       removal: input?.stage === "production" ? "retain" : "remove",
       protect: ["production"].includes(input?.stage),
       home: "aws",
+      region: "us-east-2",
     };
   },
   async run() {
-    new sst.aws.Nextjs("hebo-ai", {
-      path: ".",
+    new sst.aws.StaticSite("HeboWww", {
+      path: "apps/www",
+      build: {
+        command: "bun run build",
+        output: "build/client",
+      },
       domain: {
-        name: "hebo.ai",
-        redirects: ["www.hebo.ai"],
+        name: $app.stage === "production" ? "hebo.ai" : `${$app.stage}.hebo.ai`,
+        redirects: [
+          $app.stage === "production" ? "www.hebo.ai" : `www.${$app.stage}.hebo.ai`,
+        ],
       }
     });
   },
 });
+
