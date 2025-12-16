@@ -1,25 +1,49 @@
-This is the https://hebo.ai website developed with [Next.js](https://nextjs.org).
+# Welcome to hebo.ai!
+
+This is the https://hebo.ai website developed with [React Router](https://reactrouter.com/).
 
 ## Getting Started
 
-First, run the development server:
+### Installation
+
+Install the dependencies:
 
 ```bash
-npm run dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start the development server with HMR:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+bun run dev
+```
 
-The design uses [Tailwind](https://tailwindcss.com/TailwindCSS) and components are from [ShadCN](http://shadcndesign.com/).
+Your application will be available at `http://localhost:4173`.
 
-## Deploy on AWS
+## Building for Production
+
+Create a production build:
+
+```bash
+bun run build
+```
+
+## Deployment
+
+### AWS
 
 The easiest way to deploy our website is to use the [SST](https://sst.dev/) template.
 
 ```bash
-npx sst deploy --stage production
+bun sst deploy --stage production
 ```
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+
+---
+
+Built with ❤️ using React Router, TailwindCSS and ShadCN.
