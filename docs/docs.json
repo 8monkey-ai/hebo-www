@@ -1,20 +1,60 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Hebo Docs",
+  "name": "Hebo AI",
   "colors": {
-    "primary": "#facc15"
+    "primary": "#facc15",
+    "light": "#00BBA7",
+    "dark": "#009689"
   },
   "logo": "https://hebo.ai/icon.png",
+  "favicon": "https://hebo.ai/favicon.ico",
   "icons": {
     "library": "lucide"
   },
   "fonts": {
     "family": "Recursive"
   },
-  "navigation": {
-    "pages": [
-        "getting-started"
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Console",
+      "href": "https://console.hebo.ai"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "chatgpt"
     ]
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Hebo Cloud",
+        "pages": [
+            "getting-started"
+        ]
+      },
+      {
+        "tab": "Evals",
+        "pages": [
+            "getting-started"
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "pages": [
+            "getting-started"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/heboai",
+      "github": "https://github.com/8monkey-ai/hebo",
+      "linkedin": "https://www.linkedin.com/company/heboai/"
+    }
   }
 }
