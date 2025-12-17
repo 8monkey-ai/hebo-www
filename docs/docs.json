@@ -74,7 +74,7 @@
         "groups": [
           {
             "group": "Changelog",
-            "icon": "calendar",
+            "icon": "calendar-days",
             "pages": [
               "changelog/updates"
             ]
