@@ -24,7 +24,7 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Console",
+      "label": "Cloud",
       "href": "https://console.hebo.ai"
     }
   },
