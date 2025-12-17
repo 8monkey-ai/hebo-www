@@ -3,7 +3,7 @@ html:not(.dark) span.fixed.inset-0 {
   background-color: #f1f5f9;
 }
 
-.bg-primary-dark span {
+#topbar-cta-button span {
   color:#020617 !important;
 }
 
