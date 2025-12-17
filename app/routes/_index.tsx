@@ -8,7 +8,7 @@ export default function Home() {
         id="hero"
         className="mx-auto flex max-w-4xl flex-col gap-4 text-center"
       >
-        <img src="/hebo.png" alt="Hebo Logo" className="mx-auto size-42" />
+        <img src="/hebo.png" alt="Hebo Logo" className="mx-auto" width={168} height={168} />
         <h1 className="relative mx-auto w-fit text-4xl font-semibold">
           Build agents that actually work
         </h1>
@@ -25,6 +25,7 @@ export default function Home() {
                 rel="noreferrer"
               />
             }
+            nativeButton={false}
             className="h-10 px-5 text-background bg-indigo-900 hover:bg-indigo-800"
           >
             Get Started
@@ -37,6 +38,7 @@ export default function Home() {
                 rel="noreferrer"
               />
             }
+            nativeButton={false}
             variant="outline"
             className="h-10 px-5 text-base font-semibold border-2 rounded-xl border-indigo-800"
           >
