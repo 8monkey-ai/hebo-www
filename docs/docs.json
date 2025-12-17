@@ -40,34 +40,17 @@
         "tab": "Hebo",
         "groups": [
           {
-          "group": "Getting started",
-          "icon": "play",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Editing",
-              "expanded": false,
-              "icon": "pencil",
-              "pages": [
-                "installation",
-                "editor"
-                ]
-              }
+            "group": "Getting started",
+            "icon": "play",
+            "pages": [
+              "getting-started"
             ]
           },
           {
-          "group": "Evals",
-          "icon": "play",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Editing",
-              "expanded": false,
-              "icon": "pencil",
-              "pages": [
-                "getting started"
-                ]
-              }
+            "group": "Evals",
+            "icon": "play",
+            "pages": [
+              "getting-started"
             ]
           }
         ]
