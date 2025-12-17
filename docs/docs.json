@@ -3,9 +3,9 @@
   "theme": "almond",
   "name": "Hebo AI",
   "colors": {
-    "primary": "#eab308",
-    "light": "#00BBA7",
-    "dark": "#009689"
+    "primary": "#ca8a04",
+    "light": "#facc15",
+    "dark": "#eab308"
   },
   "logo": "https://hebo.ai/icon.png",
   "favicon": "https://hebo.ai/favicon.ico",
