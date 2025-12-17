@@ -3,6 +3,10 @@ span.fixed.inset-0 {
   background-color: #f1f5f9;
 }
 
-.bg-primary-dark span {
+#topbar-cta-button .text-white {
   color: #020617!;
+}
+
+#sidebar-title {
+  font-weight: bold;
 }

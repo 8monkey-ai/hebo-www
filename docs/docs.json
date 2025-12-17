@@ -60,6 +60,7 @@
         "groups": [
           {
             "group": "API Reference",
+            "icon": "braces",
             "pages": [
               "api/reference"
             ]
@@ -71,6 +72,7 @@
         "groups": [
           {
             "group": "Changelog",
+            "icon": "calendar",
             "pages": [
               "changelog/updates"
             ]
