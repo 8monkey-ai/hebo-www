@@ -14,7 +14,8 @@
     }
   },
   "logo": {
-    "light": "https://hebo.ai/logo.png"
+    "light": "https://hebo.ai/logo.png",
+    "dark": "https://hebo.ai/logo.png"
   },
   "favicon": "https://hebo.ai/favicon.ico",
   "icons": {
