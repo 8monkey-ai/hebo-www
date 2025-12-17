@@ -12,9 +12,9 @@ export default function Home() {
         <h1 className="relative mx-auto w-fit text-4xl font-semibold">
           Build agents that actually work
         </h1>
-        <p className="mx-auto max-w-156 text-sm sm:text-base">
-          A low-code platform that brings development & business teams together.
-          Rapidly develop & iterate on AI agents - then scale with confidence.
+        <p className="mx-auto max-w-136 text-sm sm:text-base">
+          A platform that brings development & business teams together.
+          Iterate fast. Reach production. Improve continuously.
         </p>
         <div className="mx-auto flex gap-4">
           <Button

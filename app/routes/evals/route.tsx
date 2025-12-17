@@ -110,12 +110,12 @@ export default function Evals() {
         </h2>
         <p>
           We explored existing evaluation solutions — and while powerful, most
-          felt <strong>built for developers first</strong>. But who ultimately
+          felt <strong>built for developers</strong>. But who ultimately
           owns the outcomes? The business does.
         </p>
 
         <p>
-          But effective evals shouldn’t live in code alone. They need to be{" "}
+          Effective evals shouldn’t live in code. They need to be{" "}
           <strong>written, reviewed, and iterated on by business teams</strong>{" "}
           — the people who actually define what “good” looks like.
         </p>

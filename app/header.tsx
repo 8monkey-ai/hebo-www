@@ -7,14 +7,14 @@ export default function Header() {
     <header>
       <nav className="grid grid-cols-[1fr_auto] sm:grid-cols-[1fr_auto_1fr] items-center gap-4">
         <div className="flex flex-row items-center gap-2 font-semibold text-lg sm:text-xl">
-          <Link to="/" className="contents">
+          <a href="/" className="contents">
             <img
               src="/icon.png"
               alt="Hebo Logo"
               className="h-6 w-6 sm:h-8 sm:w-8"
             />
             hebo.ai
-          </Link>
+          </a>
         </div>
         <div className="hidden sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6">
           <a
@@ -25,12 +25,12 @@ export default function Header() {
           >
             Gateway
           </a>
-          <Link to="/mcp" className="hover:underline">
+          <a href="/mcp" className="hover:underline">
             MCP
-          </Link>
-          <Link to="/evals" className="hover:underline">
+          </a>
+          <a href="/evals" className="hover:underline">
             Evals
-          </Link>
+          </a>
         </div>
         <div className="flex flex-row items-center justify-end gap-6">
           <a

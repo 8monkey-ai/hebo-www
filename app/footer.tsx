@@ -43,7 +43,7 @@ export default function Footer() {
                 </div>
               </div>
             </a>
-            <Link className="contents" to="/mcp">
+            <a className="contents" href="/mcp">
               <div className="flex sm:flex-col gap-2 rounded-xl bg-background/70 p-4 hover:bg-background">
                 <SquareFunction className="size-10" />
                 <div>
@@ -53,8 +53,8 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link className="contents" to="/evals">
+            </a>
+            <a className="contents" href="/evals">
               <div className="flex sm:flex-col gap-2 rounded-xl bg-background/70 p-4 hover:bg-background">
                 <Gauge className="size-10" />
                 <div>
@@ -64,7 +64,7 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
