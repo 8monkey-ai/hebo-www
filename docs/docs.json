@@ -37,16 +37,39 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Hebo Cloud",
-        "pages": [
-            "getting-started",
-            "second-page"
-        ]
-      },
-      {
-        "tab": "Evals",
-        "pages": [
-            "getting-started"
+        "tab": "Hebo",
+        "groups": [
+          {
+          "group": "Getting started",
+          "icon": "play",
+          "pages": [
+            "quickstart",
+            {
+              "group": "Editing",
+              "expanded": false,
+              "icon": "pencil",
+              "pages": [
+                "installation",
+                "editor"
+                ]
+              }
+            ]
+          },
+          {
+          "group": "Evals",
+          "icon": "play",
+          "pages": [
+            "quickstart",
+            {
+              "group": "Editing",
+              "expanded": false,
+              "icon": "pencil",
+              "pages": [
+                "getting started"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
