@@ -1,5 +1,18 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Hebo Docs",
+  "colors": {
+    "primary": "#facc15"
+  },
+  "logo": "https://hebo.ai/icon.png",
+  "icons": {
+    "library": "lucide"
+  },
+  "fonts": {
+    "family": "Recursive"
+  },
   "navigation": {
-    "tabs": []
+
   }
 }
