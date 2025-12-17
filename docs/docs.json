@@ -3,8 +3,8 @@
   "theme": "almond",
   "name": "Hebo AI",
   "colors": {
-    "primary": "#ca8a04",
-    "light": "#fde047",
+    "primary": "#60a5fa",
+    "light": "#facc15",
     "dark": "#facc15"
   },
   "background": {
