@@ -57,14 +57,24 @@
       },
       {
         "tab": "API Reference",
-        "pages": [
-            "api/reference"
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api/reference"
+            ]
+          }
         ]
       },
       {
         "tab": "Changelog",
-        "pages": [
-            "changelog/changelog"
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": [
+              "changelog/updates"
+            ]
+          }
         ]
       }
     ]
