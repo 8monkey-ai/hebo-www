@@ -3,6 +3,6 @@ span.fixed.inset-0 {
   background-color: #f1f5f9;
 }
 
-.bg-primary-dark {
-  color: #020617;
+.bg-primary-dark span {
+  color: #020617!;
 }
