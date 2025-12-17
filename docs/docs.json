@@ -8,7 +8,6 @@
     "dark": "#facc15"
   },
   "background": {
-      "decoration": "gradient",
     "color": {
       "light": "#f8fafc",
       "dark": "#020617"
