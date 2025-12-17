@@ -1,5 +1,5 @@
 
-span.fixed.inset-0 {
+html:not(.dark) span.fixed.inset-0 {
   background-color: #f1f5f9;
 }
 
