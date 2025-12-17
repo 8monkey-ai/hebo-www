@@ -4,7 +4,7 @@ html:not(.dark) span.fixed.inset-0 {
 }
 
 .bg-primary-dark span {
-  color: #020617!;
+  color:#020617 !important;
 }
 
 #sidebar-title {
