@@ -4,8 +4,14 @@
   "name": "Hebo AI",
   "colors": {
     "primary": "#ca8a04",
-    "light": "#facc15",
-    "dark": "#eab308"
+    "light": "#fde047",
+    "dark": "#facc15"
+  },
+  "background": {
+    "color": {
+      "light": "#A0A39C",
+      "dark": "#020617"
+    }
   },
   "logo": "https://hebo.ai/icon.png",
   "favicon": "https://hebo.ai/favicon.ico",
