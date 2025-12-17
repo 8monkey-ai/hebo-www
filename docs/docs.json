@@ -43,7 +43,7 @@
             "group": "Cloud",
             "icon": "brain",
             "pages": [
-              "cloud/getting-started"
+              "cloud/introduction"
             ]
           },
           {
@@ -58,7 +58,7 @@
       {
         "tab": "API Reference",
         "pages": [
-            "getting-started"
+            "api/referendce"
         ]
       }
     ]
