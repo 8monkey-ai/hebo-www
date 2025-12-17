@@ -60,6 +60,12 @@
         "pages": [
             "api/reference"
         ]
+      },
+      {
+        "tab": "Changelog",
+        "pages": [
+            "changelog/changelog"
+        ]
       }
     ]
   },
