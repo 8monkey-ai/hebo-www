@@ -50,6 +50,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         />
         <Meta />
         <Links />
+        <script async src={"https://www.googletagmanager.com/gtag/js?id=G-ZJJ115Z0CH"} />
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZJJ115Z0CH');`}
+        </script>
       </head>
       <body>
         <div className="m-auto flex w-full max-w-6xl flex-col gap-15 p-5 sm:gap-20">
