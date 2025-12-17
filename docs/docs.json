@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "linden",
   "name": "Hebo AI",
   "colors": {
     "primary": "#3b82f6",
@@ -8,8 +8,8 @@
     "dark": "#facc15"
   },
   "background": {
-    "color": {
       "decoration": "gradient",
+    "color": {
       "light": "#f8fafc",
       "dark": "#020617"
     }
