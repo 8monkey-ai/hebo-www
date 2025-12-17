@@ -40,17 +40,17 @@
         "tab": "Hebo",
         "groups": [
           {
-            "group": "Getting started",
-            "icon": "play",
+            "group": "Cloud",
+            "icon": "brain",
             "pages": [
-              "getting-started"
+              "cloud/getting-started"
             ]
           },
           {
             "group": "Evals",
-            "icon": "play",
+            "icon": "gauge",
             "pages": [
-              "getting-started"
+              "evals/getting-started"
             ]
           }
         ]
