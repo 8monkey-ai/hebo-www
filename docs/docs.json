@@ -43,7 +43,17 @@
         {
           "anchor": "Gateway",
           "icon": "brain",
-          "href": "https://console.hebo.ai"
+          "href": "https://hebo.ai"
+        },
+        {
+          "anchor": "MCP",
+          "icon": "function",
+          "href": "https://hebo.ai/mcp"
+        },
+        {
+          "anchor": "Evals",
+          "icon": "gauge",
+          "href": "https://hebo.ai/evals"
         }
       ]
     },
