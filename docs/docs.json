@@ -41,6 +41,13 @@
     "tabs": [
       {
         "tab": "Hebo",
+        "anchors": [
+          {
+            "anchor": "Gateway",
+            "icon": "brain",
+            "href": "https://console.hebo.ai"
+          }
+        ],
         "groups": [
           {
             "group": "Cloud",
