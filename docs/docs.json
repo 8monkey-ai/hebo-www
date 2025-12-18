@@ -34,7 +34,11 @@
   "contextual": {
     "options": [
       "copy",
-      "chatgpt"
+      "view",
+      "chatgpt",
+      "mcp",
+      "vscode",
+      "cursor"
     ]
   },
   "navigation": {
@@ -57,35 +61,35 @@
         }
       ]
     },
-        "groups": [
-          {
-            "group": "Cloud",
-            "icon": "cloud",
-            "pages": [
-              "cloud/introduction"
-            ]
-          },
-          {
-            "group": "Evals",
-            "icon": "gauge",
-            "pages": [
-              "evals/getting-started"
-            ]
-          },
-          {
-            "group": "API Reference",
-            "icon": "braces",
-            "pages": [
-              "api/reference"
-            ]
-          },
-          {
-            "group": "Changelog",
-            "icon": "calendar-days",
-            "pages": [
-              "changelog/updates"
-            ]
-          }
+    "groups": [
+      {
+        "group": "Cloud",
+        "icon": "cloud",
+        "pages": [
+          "cloud/introduction"
+        ]
+      },
+      {
+        "group": "Evals",
+        "icon": "gauge",
+        "pages": [
+          "evals/getting-started"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "icon": "braces",
+        "pages": [
+          "api/reference"
+        ]
+      },
+      {
+        "group": "Changelog",
+        "icon": "calendar-days",
+        "pages": [
+          "changelog/updates"
+        ]
+      }
     ]
   },
   "footer": {
@@ -93,6 +97,11 @@
       "x": "https://x.com/heboai",
       "github": "https://github.com/8monkey-ai/hebo",
       "linkedin": "https://www.linkedin.com/company/heboai/"
+    }
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-ZJJ115Z0CH"
     }
   }
 }
