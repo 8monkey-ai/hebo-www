@@ -35,8 +35,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Cloud",
-          "icon": "cloud",
+          "anchor": "Gateway",
+          "icon": "brain",
           "href": "https://hebo.ai"
         },
         {
