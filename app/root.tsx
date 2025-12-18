@@ -45,8 +45,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="icon"
-          type="image/x-icon"
-          href="https://hebo.ai/favicon.ico"
+          type="image/svg+xml"
+          href="https://hebo.ai/favicon.svg"
         />
         <Meta />
         <Links />
