@@ -53,7 +53,7 @@
         "groups": [
           {
             "group": "Cloud",
-            "icon": "brain",
+            "icon": "cloud",
             "pages": [
               "cloud/introduction"
             ]
@@ -64,24 +64,14 @@
             "pages": [
               "evals/getting-started"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
+          },
           {
             "group": "API Reference",
-            "icon": "braces",
+            "icon": "bracets",
             "pages": [
               "api/reference"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "groups": [
+          },
           {
             "group": "Changelog",
             "icon": "calendar-days",
