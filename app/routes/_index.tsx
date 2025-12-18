@@ -33,7 +33,7 @@ export default function Home() {
           <Button
             render={
               <a
-                href="https://docs.hebo.ai/"
+                href="https://hebo.ai/docs"
                 target="_blank"
                 rel="noreferrer"
               />

@@ -88,10 +88,10 @@ export default function Evals() {
             <li>✔ Integrate with your CI / CD pipeline</li>
           </ul>
           <div className="flex gap-4">
-            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} nativeButton={false} className="h-10 px-5 bg-indigo-900 text-background hover:bg-indigo-800">
+            <Button render={<a href="https://hebo.ai/docs" target="_blank" rel="noreferrer" />} nativeButton={false} className="h-10 px-5 bg-indigo-900 text-background hover:bg-indigo-800">
               Get Started
             </Button>
-            <Button render={<a href="https://docs.hebo.ai/" target="_blank" rel="noreferrer" />} nativeButton={false} variant="outline" className="h-10 px-5 rounded-xl border-2 border-indigo-800 text-base font-semibold">
+            <Button render={<a href="https://hebo.ai/docs" target="_blank" rel="noreferrer" />} nativeButton={false} variant="outline" className="h-10 px-5 rounded-xl border-2 border-indigo-800 text-base font-semibold">
                 Docs
             </Button>
           </div>
