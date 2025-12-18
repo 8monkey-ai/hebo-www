@@ -27,26 +27,16 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Cloud",
-      "href": "https://console.hebo.ai"
+      "label": "Github",
+      "href": "https://github.com/8monkey-ai/hebo"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "mcp",
-      "vscode",
-      "cursor"
-    ]
   },
   "navigation": {
     "global": {
       "anchors": [
         {
-          "anchor": "Gateway",
-          "icon": "brain",
+          "anchor": "Cloud",
+          "icon": "cloud",
           "href": "https://hebo.ai"
         },
         {
@@ -90,6 +80,16 @@
           "changelog/updates"
         ]
       }
+    ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "mcp",
+      "vscode",
+      "cursor"
     ]
   },
   "footer": {
