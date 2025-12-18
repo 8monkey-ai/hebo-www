@@ -26,7 +26,7 @@
   },
   "navbar": {
     "primary": {
-      "type": "button",
+      "type": "Github",
       "label": "Github",
       "href": "https://github.com/8monkey-ai/hebo"
     }
