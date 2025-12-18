@@ -53,8 +53,8 @@
     },
     "groups": [
       {
-        "group": "Cloud",
-        "icon": "cloud",
+        "group": "Hebo",
+        "icon": "play",
         "pages": [
           "cloud/introduction"
         ]
