@@ -202,7 +202,7 @@ export default function MCP() {
         </div>
       </div>
 
-      <section className="max-w-3xl mx-auto space-y-2 text-base font-normal leading-relaxed">
+      <section className="max-w-3xl mx-auto space-y-2 px-2 sm:p-0 text-base font-normal leading-relaxed">
         <h2 className="text-xl font-semibold">
           Why we are building mcp.hebo.ai
         </h2>

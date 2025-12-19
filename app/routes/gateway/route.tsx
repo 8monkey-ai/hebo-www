@@ -15,20 +15,20 @@ const MODELS = [
   {
     name: "Model C",
     temperature: "0 .. 1",
-    reasoning: "Low / High",
+    reasoning: "Medium",
     retries: "1",
   },
   {
     name: "Model G",
     temperature: "0 .. 2",
-    reasoning: "#Tokens",
+    reasoning: "8192",
     retries: "3",
   },
 ];
 
 const FEATURES = [
-  "Normalized Configuration",
-  "Insights & Control",
+  "Normalized Endpoints",
+  "Configuration-over-Code",
   "Access Management",
 ];
 
@@ -47,14 +47,14 @@ export default function Gateway() {
   return (
     <>
       <section
-        className="mx-auto max-w-4xl bg-[url('/gateway-hero-bg.png')] bg-size-[60%_auto] bg-center bg-no-repeat"
+        className="mx-auto max-w-4xl sm:bg-[url('/gateway-hero-bg.png')] sm:bg-size-[60%_auto] sm:bg-center sm:bg-no-repeat"
       >
-        <div className="grid gap-10 sm:grid-cols-[1.1fr_1fr_1.1fr]">
-          <div className="order-2 flex flex-col items-center sm:order-1 sm:flex-col sm:items-start">
+        <div className="grid gap-5 sm:gap-10 sm:grid-cols-[1fr_1.1fr_1fr]">
+          <div className="flex flex-col items-center sm:flex-col sm:items-start">
             <img
               src="/hebo-gateway.png"
               alt="Hebo AI Gateway"
-              className="z-10 ml-10 w-24 h-24"
+              className="sm:ml-10 w-24 h-24"
             />
             <div className="flex w-full max-w-xs flex-col gap-2">
               {ENDPOINTS.map((endpoint) => (
@@ -71,18 +71,17 @@ export default function Gateway() {
             </div>
           </div>
 
-          <div className="order-1 mx-auto flex w-full max-w-md flex-col items-center gap-5 text-center pt-5 sm:order-2">
-            <div className="flex h-16 w-16 sm:h-24 sm:w-24 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-800 shadow-inner">
+          <div className="mx-auto flex w-full max-w-md flex-col items-center gap-3 sm:gap-5 text-center sm:pt-5">
+            <div className="hidden sm:flex h-16 w-16 sm:h-24 sm:w-24 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-800 shadow-inner">
               <BrainCog className="h-12 w-12" strokeWidth={2.4} />
             </div>
             <div className="flex flex-col gap-2">
-              <h1 className="text-4xl font-semibold sm:text-5xl">
+              <h1 className="text-4xl font-semibold sm:text-5xl sm:max-w-64">
                 Hebo AI
-                <br />
                 Gateway
               </h1>
             </div>
-            <div className="flex flex-wrap justify-center gap-3 mt-3">
+            <div className="flex flex-wrap justify-center gap-3 sm:mt-3">
               <Button
                 render={
                   <a
@@ -109,7 +108,7 @@ export default function Gateway() {
             </div>
           </div>
 
-          <div className="order-3 flex w-full flex-col gap-3 sm:order-3">
+          <div className="flex mx-auto sm:w-full sm:flex-col gap-3">
             {MODELS.map((model) => (
               <div
                 key={model.name}
@@ -129,7 +128,7 @@ export default function Gateway() {
             ))}
           </div>
         </div>
-        <div className="mt-8 grid gap-4 text-center sm:flex-row sm:flex w-fit mx-auto">
+        <div className="mt-8 gap-2 sm:gap-4 sm:px-8 text-center flex-row flex w-fit mx-auto">
           {FEATURES.map((feature) => (
             <div
               key={feature}
@@ -142,7 +141,7 @@ export default function Gateway() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-3xl space-y-2 text-base leading-relaxed font-normal">
+      <section className="mx-auto max-w-3xl space-y-2 px-2 sm:p-0 text-base leading-relaxed font-normal">
         <h2 className="text-xl font-semibold">
           “Chat Completions” looks standard. The behavior underneath isn’t.
         </h2>
@@ -154,26 +153,25 @@ export default function Gateway() {
 
         <p>
           Every provider implements the interface slightly differently.{" "}
-          <em>Temperature ranges don’t line up</em>.{" "}
-          Reasoning is expressed in tokens for some models and <em>levels</em> for others.
+          <em>Temperature ranges don’t line-up</em>.{" "}
+          Reasoning is expressed in tokens for some models and low / medium / high for others.
           Tool calling may require thought signatures, hidden flags, or model-specific syntax.
           Even retries behave differently — some failures disappear on a second call, others don’t.
+          These differences may look small at first, but <strong>they compound quickly</strong>.
         </p>
 
         <p>
-          These differences may look small at first, but <strong>they compound quickly</strong>.
           Switching models, or even upgrading the same model version, usually means redeploying.
           Configuration that should be operational ends up <strong>hard-coded</strong>.
-          Seemingly trivial changes like adjusting <em>reasoning effort</em> or <em>temperature</em>
+          Seemingly trivial changes like adjusting <em>reasoning effort</em> or <em>temperature</em>{" "}
           ripple through application code.
         </p>
 
         <p>
-          At the same time, visibility is fragmented.
+          Visibility is fragmented.
           Latency lives in one console, token usage in another, errors somewhere else entirely.
-          Cloud provider dashboards are powerful, but they’re not designed around how teams
-          actually iterate on AI systems.{" "}
-          <strong>Answering basic questions—<em>what happened, where, and why</em>, takes far too long.</strong>
+          Cloud provider dashboards are powerful, but they’re <strong>not designed around how teams
+          actually iterate on AI systems</strong>.{" "}
         </p>
 
         <p>

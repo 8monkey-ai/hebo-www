@@ -74,7 +74,7 @@ export default function Evals() {
           </pre>
         </figure>
 
-        <div id="message" className="flex flex-col gap-4">
+        <div id="message" className="flex flex-col gap-4 px-2 sm:p-0">
           <div className="text-3xl sm:text-4xl font-light">Hebo Evals</div>
           <div className="max-w-md text-4xl sm:text-5xl font-medium">
             Evaluate{" "}
@@ -89,7 +89,7 @@ export default function Evals() {
           </ul>
           <div className="flex gap-4">
             <Button render={<a href="https://hebo.ai/docs" target="_blank" rel="noreferrer" />} nativeButton={false} className="h-10 px-5 bg-indigo-900 text-background hover:bg-indigo-800">
-              Get Started
+              Get Started &gt;
             </Button>
             <Button render={<a href="https://hebo.ai/docs" target="_blank" rel="noreferrer" />} nativeButton={false} variant="outline" className="h-10 px-5 rounded-xl border-2 border-indigo-800 text-base font-semibold">
                 Docs
@@ -104,7 +104,7 @@ export default function Evals() {
         </div>
       </div>
 
-      <section className="max-w-3xl mx-auto space-y-2 text-base font-normal leading-relaxed">
+      <section className="max-w-3xl mx-auto space-y-2 px-2 sm:p-0 text-base font-normal leading-relaxed">
         <h2 className="text-xl font-semibold">
           Hebo Evals: Markdown for Evals, a human-first format{" "}
         </h2>

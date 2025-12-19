@@ -26,9 +26,12 @@ export default function Home() {
               />
             }
             nativeButton={false}
-            className="h-10 px-5 text-background bg-indigo-900 hover:bg-indigo-800"
+            className="relative h-10 px-5 text-background bg-indigo-900 hover:bg-indigo-800"
           >
-            Get Started
+            Get Started &gt;
+            <span className="pointer-events-none absolute -right-3 -top-2 rotate-6 rounded-md bg-green-700 px-2 py-0.5 text-xs font-extrabold leading-none text-background shadow-sm">
+              FREE
+            </span>
           </Button>
           <Button
             render={
@@ -59,7 +62,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="mx-auto max-w-3xl space-y-2 text-base leading-relaxed font-normal">
+      <section className="mx-auto max-w-3xl space-y-2 px-2 sm:p-0 text-base leading-relaxed font-normal">
         <h2 className="text-xl font-semibold">
           Hebo is the fastest way to build & scale high-quality conversational
           agents
