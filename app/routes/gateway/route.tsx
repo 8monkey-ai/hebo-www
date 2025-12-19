@@ -34,7 +34,7 @@ const FEATURES = [
 
 export function meta() {
   return [
-    { title: "Hebo AI Gateway: " },
+    { title: "Hebo Gateway: Unified Completions & Embedding Endpoints" },
     {
       name: "description",
       content:
@@ -85,23 +85,30 @@ export default function Gateway() {
               <Button
                 render={
                   <a
-                    href="https://console.hebo.ai/playground"
+                    href="https://console.hebo.ai/"
                     target="_blank"
                     rel="noreferrer"
                   />
                 }
                 nativeButton={false}
-                className="h-10 rounded-xl bg-indigo-900 px-5 text-background hover:bg-indigo-800"
+                className="relative h-10 px-5 text-background bg-indigo-900 hover:bg-indigo-800"
               >
                 Get Started &gt;
+                <span className="pointer-events-none absolute -right-2.5 -top-2 rotate-6 rounded-md bg-lime-700 px-2 py-1 text-xs font-extrabold leading-none text-background">
+                  FREE
+                </span>
               </Button>
               <Button
                 render={
-                  <a href="https://hebo.ai/docs" target="_blank" rel="noreferrer" />
+                  <a
+                    href="https://hebo.ai/docs"
+                    target="_blank"
+                    rel="noreferrer"
+                  />
                 }
                 nativeButton={false}
                 variant="outline"
-                className="h-10 rounded-xl border-2 border-indigo-900 px-5 text-indigo-900"
+                className="h-10 px-5 text-base font-semibold border-2 rounded-xl border-indigo-800"
               >
                 Docs
               </Button>

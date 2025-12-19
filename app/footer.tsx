@@ -20,7 +20,7 @@ export default function Footer() {
                   Try Hebo Cloud
                 </Button>
                 <Button variant="ghost" render={<a href="https://console.hebo.ai" target="_blank" rel="noreferrer" />} nativeButton={false} className="hover:underline">
-                  Start for free →
+                  Start for free &gt;
                 </Button>
               </div>
             </div>

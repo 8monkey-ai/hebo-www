@@ -29,7 +29,7 @@ export default function Home() {
             className="relative h-10 px-5 text-background bg-indigo-900 hover:bg-indigo-800"
           >
             Get Started &gt;
-            <span className="pointer-events-none absolute -right-3 -top-2 rotate-6 rounded-md bg-green-700 px-2 py-0.5 text-xs font-extrabold leading-none text-background shadow-sm">
+            <span className="pointer-events-none absolute -right-2.5 -top-2 rotate-6 rounded-md bg-lime-700 px-2 py-1 text-xs font-extrabold leading-none text-background">
               FREE
             </span>
           </Button>

@@ -52,7 +52,7 @@ export default function Header() {
           <a
             href="https://console.hebo.ai"
             target="_blank"
-            className="rounded-2xl border-2 border-indigo-800 hover:bg-muted px-4 py-1 text-sm font-medium"
+            className="rounded-2xl border-2 border-indigo-800 bg-background hover:bg-muted px-4 py-1 text-sm font-medium"
             rel="noreferrer"
             aria-label="Hebo Cloud Console"
           >
