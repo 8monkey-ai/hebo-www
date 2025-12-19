@@ -1,5 +1,3 @@
-import { Link } from "react-router";
-
 import { Discord, Github, X } from "./components/icons";
 
 export default function Header() {
@@ -17,12 +15,7 @@ export default function Header() {
           </a>
         </div>
         <div className="hidden sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-6">
-          <a
-            href="https://console.hebo.ai"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:underline"
-          >
+          <a href="/gateway" className="hover:underline">
             Gateway
           </a>
           <a href="/mcp" className="hover:underline">

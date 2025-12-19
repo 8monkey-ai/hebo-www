@@ -26,12 +26,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="w-full grid sm:grid-cols-3 gap-3">
-            <a
-              className="contents"
-              href="https://console.hebo.ai"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a className="contents" href="/gateway">
               <div className="flex sm:flex-col gap-2 rounded-xl bg-background/70 p-4 hover:bg-background">
                 <Brain size={40} />
                 <div>

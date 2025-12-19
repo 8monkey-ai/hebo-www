@@ -27,7 +27,6 @@
   "navbar": {
     "primary": {
       "type": "github",
-      "label": "Github",
       "href": "https://github.com/8monkey-ai/hebo"
     }
   },
@@ -37,7 +36,7 @@
         {
           "anchor": "Gateway",
           "icon": "brain",
-          "href": "https://hebo.ai"
+          "href": "https://hebo.ai/gateway"
         },
         {
           "anchor": "MCP",
