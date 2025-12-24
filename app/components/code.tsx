@@ -42,14 +42,14 @@ export function CodeBlock({
       {...props}
     >
       {title ? (
-        <div className="bg-secondary flex items-center justify-between gap-1 p-2">
+        <div className="bg-accent flex items-center justify-between gap-1 p-2">
           <span className="text-foreground text-sm font-medium">{title}</span>
           <CopyButton value={getNodeText(children)} className="" />
         </div>
       ) : (
         <CopyButton
           value={getNodeText(children)}
-          className="absolute top-0 right-0 z-10 bg-white p-2.5"
+          className="bg-background absolute top-0 right-0 z-10 p-2.5"
         />
       )}
       <pre className="h-full w-full overflow-auto p-2 font-mono text-sm whitespace-pre">
@@ -66,9 +66,9 @@ export function CodeGroup({ className, ...props }: CodeGroupProps) {
     <Tabs
       className={cn(
         "relative flex h-full w-full min-h-0 min-w-0 gap-0",
-        "bg-secondary overflow-hidden rounded-lg",
+        "bg-accent overflow-hidden rounded-lg",
         "**:data-[slot=tabs-list]:py-1",
-        "**:data-[slot=tabs-list]:bg-secondary",
+        "**:data-[slot=tabs-list]:bg-accent",
         "**:data-[slot=tabs-content]:min-h-0",
         "**:data-[slot=tabs-content]:overflow-hidden",
         "**:data-[slot=code-block]:static",
@@ -97,18 +97,16 @@ export function CodeGroupMdx({ children }: CodeGroupMdxProps) {
       <TabsList>
         {blocks.map((block, index) => (
           <TabsTrigger key={index} value={String(index)}>
-            {(block.props.children as React.ReactElement<CodeBlockProps>)?.props
-              ?.title ?? `Code ${index + 1}`}
+            {(block.props?.children as React.ReactElement<CodeBlockProps>)
+              ?.props?.title ?? `Code ${index + 1}`}
           </TabsTrigger>
         ))}
       </TabsList>
       {blocks.map((block, index) => (
         <TabsContent key={index} value={String(index)}>
           <CodeBlock>
-            {
-              (block.props.children as React.ReactElement<CodeBlockProps>).props
-                .children
-            }
+            {(block.props?.children as React.ReactElement<CodeBlockProps>)
+              ?.props?.children ?? "no children"}
           </CodeBlock>
         </TabsContent>
       ))}
