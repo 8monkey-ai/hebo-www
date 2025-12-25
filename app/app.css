@@ -124,6 +124,7 @@
 
   body {
     @apply font-sans text-foreground;
+    background: oklch(0.975 0.005 240);
   }
 
   body::before {
@@ -131,18 +132,14 @@
     position: fixed;
     inset: 0;
     background:
-      linear-gradient(0deg, oklch(0.985 0.03 100) 0%, oklch(0.975 0.005 240) 60%) 0 0 / 100% 100vh no-repeat,
+      linear-gradient(0deg, oklch(0.985 0.03 100) 0%, oklch(0.975 0.005 240) 60%) 0 0 / 100% 100dvh no-repeat,
       oklch(0.985 0.03 100);
      z-index: -1;
    }
 
   .dark body::before {
     background:
-      linear-gradient(0deg, oklch(0.15 0.042 265) 0%, oklch(0.13 0.04 265) 60%) 0 0 / 100% 100vh no-repeat,
+      linear-gradient(0deg, oklch(0.15 0.042 265) 0%, oklch(0.13 0.04 265) 60%) 0 0 / 100% 100dvh no-repeat,
       oklch(0.15 0.042 265);
-  }
-
-  html {
-    @apply font-sans;
   }
 }
